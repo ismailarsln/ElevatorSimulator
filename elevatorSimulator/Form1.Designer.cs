@@ -76,7 +76,7 @@
             // 
             this.btn0.Location = new System.Drawing.Point(3, 3);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(100, 100);
+            this.btn0.Size = new System.Drawing.Size(40, 40);
             this.btn0.TabIndex = 0;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = true;
@@ -84,9 +84,9 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(109, 3);
+            this.btn1.Location = new System.Drawing.Point(49, 3);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(100, 100);
+            this.btn1.Size = new System.Drawing.Size(40, 40);
             this.btn1.TabIndex = 1;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
@@ -105,16 +105,16 @@
             this.flowLayoutPanel1.Controls.Add(this.btn8);
             this.flowLayoutPanel1.Controls.Add(this.btn9);
             this.flowLayoutPanel1.Controls.Add(this.btn10);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 72);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(827, 493);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(324, 434);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(511, 52);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(215, 3);
+            this.btn2.Location = new System.Drawing.Point(95, 3);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(100, 100);
+            this.btn2.Size = new System.Drawing.Size(40, 40);
             this.btn2.TabIndex = 2;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
@@ -122,9 +122,9 @@
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(3, 109);
+            this.btn3.Location = new System.Drawing.Point(141, 3);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(100, 100);
+            this.btn3.Size = new System.Drawing.Size(40, 40);
             this.btn3.TabIndex = 3;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
@@ -132,9 +132,9 @@
             // 
             // btn4
             // 
-            this.btn4.Location = new System.Drawing.Point(109, 109);
+            this.btn4.Location = new System.Drawing.Point(187, 3);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(100, 100);
+            this.btn4.Size = new System.Drawing.Size(40, 40);
             this.btn4.TabIndex = 4;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
@@ -142,9 +142,9 @@
             // 
             // btn5
             // 
-            this.btn5.Location = new System.Drawing.Point(215, 109);
+            this.btn5.Location = new System.Drawing.Point(233, 3);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(100, 100);
+            this.btn5.Size = new System.Drawing.Size(40, 40);
             this.btn5.TabIndex = 5;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
@@ -152,9 +152,9 @@
             // 
             // btn6
             // 
-            this.btn6.Location = new System.Drawing.Point(3, 215);
+            this.btn6.Location = new System.Drawing.Point(279, 3);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(100, 100);
+            this.btn6.Size = new System.Drawing.Size(40, 40);
             this.btn6.TabIndex = 6;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
@@ -162,9 +162,9 @@
             // 
             // btn7
             // 
-            this.btn7.Location = new System.Drawing.Point(109, 215);
+            this.btn7.Location = new System.Drawing.Point(325, 3);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(100, 100);
+            this.btn7.Size = new System.Drawing.Size(40, 40);
             this.btn7.TabIndex = 7;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
@@ -172,9 +172,9 @@
             // 
             // btn8
             // 
-            this.btn8.Location = new System.Drawing.Point(215, 215);
+            this.btn8.Location = new System.Drawing.Point(371, 3);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(100, 100);
+            this.btn8.Size = new System.Drawing.Size(40, 40);
             this.btn8.TabIndex = 8;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
@@ -182,9 +182,9 @@
             // 
             // btn9
             // 
-            this.btn9.Location = new System.Drawing.Point(3, 321);
+            this.btn9.Location = new System.Drawing.Point(417, 3);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(100, 100);
+            this.btn9.Size = new System.Drawing.Size(40, 40);
             this.btn9.TabIndex = 9;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
@@ -192,9 +192,9 @@
             // 
             // btn10
             // 
-            this.btn10.Location = new System.Drawing.Point(109, 321);
+            this.btn10.Location = new System.Drawing.Point(463, 3);
             this.btn10.Name = "btn10";
-            this.btn10.Size = new System.Drawing.Size(100, 100);
+            this.btn10.Size = new System.Drawing.Size(40, 40);
             this.btn10.TabIndex = 10;
             this.btn10.Text = "10";
             this.btn10.UseVisualStyleBackColor = true;
@@ -213,16 +213,16 @@
             this.flowLayoutPanel2.Controls.Add(this.btn8_1);
             this.flowLayoutPanel2.Controls.Add(this.btn9_1);
             this.flowLayoutPanel2.Controls.Add(this.btn10_1);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(768, 72);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(827, 603);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(322, 434);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(511, 46);
             this.flowLayoutPanel2.TabIndex = 3;
             // 
             // btn0_1
             // 
             this.btn0_1.Location = new System.Drawing.Point(3, 3);
             this.btn0_1.Name = "btn0_1";
-            this.btn0_1.Size = new System.Drawing.Size(100, 100);
+            this.btn0_1.Size = new System.Drawing.Size(40, 40);
             this.btn0_1.TabIndex = 0;
             this.btn0_1.Text = "0";
             this.btn0_1.UseVisualStyleBackColor = true;
@@ -230,9 +230,9 @@
             // 
             // btn1_1
             // 
-            this.btn1_1.Location = new System.Drawing.Point(109, 3);
+            this.btn1_1.Location = new System.Drawing.Point(49, 3);
             this.btn1_1.Name = "btn1_1";
-            this.btn1_1.Size = new System.Drawing.Size(100, 100);
+            this.btn1_1.Size = new System.Drawing.Size(40, 40);
             this.btn1_1.TabIndex = 1;
             this.btn1_1.Text = "1";
             this.btn1_1.UseVisualStyleBackColor = true;
@@ -240,9 +240,9 @@
             // 
             // btn2_1
             // 
-            this.btn2_1.Location = new System.Drawing.Point(215, 3);
+            this.btn2_1.Location = new System.Drawing.Point(95, 3);
             this.btn2_1.Name = "btn2_1";
-            this.btn2_1.Size = new System.Drawing.Size(100, 100);
+            this.btn2_1.Size = new System.Drawing.Size(40, 40);
             this.btn2_1.TabIndex = 2;
             this.btn2_1.Text = "2";
             this.btn2_1.UseVisualStyleBackColor = true;
@@ -250,9 +250,9 @@
             // 
             // btn3_1
             // 
-            this.btn3_1.Location = new System.Drawing.Point(3, 109);
+            this.btn3_1.Location = new System.Drawing.Point(141, 3);
             this.btn3_1.Name = "btn3_1";
-            this.btn3_1.Size = new System.Drawing.Size(100, 100);
+            this.btn3_1.Size = new System.Drawing.Size(40, 40);
             this.btn3_1.TabIndex = 3;
             this.btn3_1.Text = "3";
             this.btn3_1.UseVisualStyleBackColor = true;
@@ -260,9 +260,9 @@
             // 
             // btn4_1
             // 
-            this.btn4_1.Location = new System.Drawing.Point(109, 109);
+            this.btn4_1.Location = new System.Drawing.Point(187, 3);
             this.btn4_1.Name = "btn4_1";
-            this.btn4_1.Size = new System.Drawing.Size(100, 100);
+            this.btn4_1.Size = new System.Drawing.Size(40, 40);
             this.btn4_1.TabIndex = 4;
             this.btn4_1.Text = "4";
             this.btn4_1.UseVisualStyleBackColor = true;
@@ -270,9 +270,9 @@
             // 
             // btn5_1
             // 
-            this.btn5_1.Location = new System.Drawing.Point(215, 109);
+            this.btn5_1.Location = new System.Drawing.Point(233, 3);
             this.btn5_1.Name = "btn5_1";
-            this.btn5_1.Size = new System.Drawing.Size(100, 100);
+            this.btn5_1.Size = new System.Drawing.Size(40, 40);
             this.btn5_1.TabIndex = 5;
             this.btn5_1.Text = "5";
             this.btn5_1.UseVisualStyleBackColor = true;
@@ -280,9 +280,9 @@
             // 
             // btn6_1
             // 
-            this.btn6_1.Location = new System.Drawing.Point(3, 215);
+            this.btn6_1.Location = new System.Drawing.Point(279, 3);
             this.btn6_1.Name = "btn6_1";
-            this.btn6_1.Size = new System.Drawing.Size(100, 100);
+            this.btn6_1.Size = new System.Drawing.Size(40, 40);
             this.btn6_1.TabIndex = 6;
             this.btn6_1.Text = "6";
             this.btn6_1.UseVisualStyleBackColor = true;
@@ -290,9 +290,9 @@
             // 
             // btn7_1
             // 
-            this.btn7_1.Location = new System.Drawing.Point(109, 215);
+            this.btn7_1.Location = new System.Drawing.Point(325, 3);
             this.btn7_1.Name = "btn7_1";
-            this.btn7_1.Size = new System.Drawing.Size(100, 100);
+            this.btn7_1.Size = new System.Drawing.Size(40, 40);
             this.btn7_1.TabIndex = 7;
             this.btn7_1.Text = "7";
             this.btn7_1.UseVisualStyleBackColor = true;
@@ -300,9 +300,9 @@
             // 
             // btn8_1
             // 
-            this.btn8_1.Location = new System.Drawing.Point(215, 215);
+            this.btn8_1.Location = new System.Drawing.Point(371, 3);
             this.btn8_1.Name = "btn8_1";
-            this.btn8_1.Size = new System.Drawing.Size(100, 100);
+            this.btn8_1.Size = new System.Drawing.Size(40, 40);
             this.btn8_1.TabIndex = 8;
             this.btn8_1.Text = "8";
             this.btn8_1.UseVisualStyleBackColor = true;
@@ -310,9 +310,9 @@
             // 
             // btn9_1
             // 
-            this.btn9_1.Location = new System.Drawing.Point(3, 321);
+            this.btn9_1.Location = new System.Drawing.Point(417, 3);
             this.btn9_1.Name = "btn9_1";
-            this.btn9_1.Size = new System.Drawing.Size(100, 100);
+            this.btn9_1.Size = new System.Drawing.Size(40, 40);
             this.btn9_1.TabIndex = 9;
             this.btn9_1.Text = "9";
             this.btn9_1.UseVisualStyleBackColor = true;
@@ -320,9 +320,9 @@
             // 
             // btn10_1
             // 
-            this.btn10_1.Location = new System.Drawing.Point(109, 321);
+            this.btn10_1.Location = new System.Drawing.Point(463, 3);
             this.btn10_1.Name = "btn10_1";
-            this.btn10_1.Size = new System.Drawing.Size(100, 100);
+            this.btn10_1.Size = new System.Drawing.Size(40, 40);
             this.btn10_1.TabIndex = 10;
             this.btn10_1.Text = "10";
             this.btn10_1.UseVisualStyleBackColor = true;
@@ -334,9 +334,9 @@
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(360, 72);
+            this.listBox1.Location = new System.Drawing.Point(1173, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(95, 434);
+            this.listBox1.Size = new System.Drawing.Size(59, 434);
             this.listBox1.TabIndex = 4;
             // 
             // listBox2
@@ -345,9 +345,9 @@
             this.listBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(461, 72);
+            this.listBox2.Location = new System.Drawing.Point(1238, 12);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(95, 434);
+            this.listBox2.Size = new System.Drawing.Size(45, 434);
             this.listBox2.TabIndex = 5;
             // 
             // listBox3
@@ -356,9 +356,9 @@
             this.listBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 16;
-            this.listBox3.Location = new System.Drawing.Point(562, 72);
+            this.listBox3.Location = new System.Drawing.Point(1292, 12);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(95, 434);
+            this.listBox3.Size = new System.Drawing.Size(46, 434);
             this.listBox3.TabIndex = 6;
             // 
             // flowLayoutPanel3
@@ -374,16 +374,16 @@
             this.flowLayoutPanel3.Controls.Add(this.btn8_2);
             this.flowLayoutPanel3.Controls.Add(this.btn9_2);
             this.flowLayoutPanel3.Controls.Add(this.btn10_2);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(677, 72);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(827, 551);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(68, 434);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(511, 46);
             this.flowLayoutPanel3.TabIndex = 7;
             // 
             // btn0_2
             // 
             this.btn0_2.Location = new System.Drawing.Point(3, 3);
             this.btn0_2.Name = "btn0_2";
-            this.btn0_2.Size = new System.Drawing.Size(50, 25);
+            this.btn0_2.Size = new System.Drawing.Size(40, 40);
             this.btn0_2.TabIndex = 0;
             this.btn0_2.Text = "0";
             this.btn0_2.UseVisualStyleBackColor = true;
@@ -391,9 +391,9 @@
             // 
             // btn1_2
             // 
-            this.btn1_2.Location = new System.Drawing.Point(3, 34);
+            this.btn1_2.Location = new System.Drawing.Point(49, 3);
             this.btn1_2.Name = "btn1_2";
-            this.btn1_2.Size = new System.Drawing.Size(50, 25);
+            this.btn1_2.Size = new System.Drawing.Size(40, 40);
             this.btn1_2.TabIndex = 1;
             this.btn1_2.Text = "1";
             this.btn1_2.UseVisualStyleBackColor = true;
@@ -401,9 +401,9 @@
             // 
             // btn2_2
             // 
-            this.btn2_2.Location = new System.Drawing.Point(3, 65);
+            this.btn2_2.Location = new System.Drawing.Point(95, 3);
             this.btn2_2.Name = "btn2_2";
-            this.btn2_2.Size = new System.Drawing.Size(50, 25);
+            this.btn2_2.Size = new System.Drawing.Size(40, 40);
             this.btn2_2.TabIndex = 2;
             this.btn2_2.Text = "2";
             this.btn2_2.UseVisualStyleBackColor = true;
@@ -411,9 +411,9 @@
             // 
             // btn3_2
             // 
-            this.btn3_2.Location = new System.Drawing.Point(3, 96);
+            this.btn3_2.Location = new System.Drawing.Point(141, 3);
             this.btn3_2.Name = "btn3_2";
-            this.btn3_2.Size = new System.Drawing.Size(50, 25);
+            this.btn3_2.Size = new System.Drawing.Size(40, 40);
             this.btn3_2.TabIndex = 3;
             this.btn3_2.Text = "3";
             this.btn3_2.UseVisualStyleBackColor = true;
@@ -421,9 +421,9 @@
             // 
             // btn4_2
             // 
-            this.btn4_2.Location = new System.Drawing.Point(3, 127);
+            this.btn4_2.Location = new System.Drawing.Point(187, 3);
             this.btn4_2.Name = "btn4_2";
-            this.btn4_2.Size = new System.Drawing.Size(50, 25);
+            this.btn4_2.Size = new System.Drawing.Size(40, 40);
             this.btn4_2.TabIndex = 4;
             this.btn4_2.Text = "4";
             this.btn4_2.UseVisualStyleBackColor = true;
@@ -431,9 +431,9 @@
             // 
             // btn5_2
             // 
-            this.btn5_2.Location = new System.Drawing.Point(3, 158);
+            this.btn5_2.Location = new System.Drawing.Point(233, 3);
             this.btn5_2.Name = "btn5_2";
-            this.btn5_2.Size = new System.Drawing.Size(50, 25);
+            this.btn5_2.Size = new System.Drawing.Size(40, 40);
             this.btn5_2.TabIndex = 5;
             this.btn5_2.Text = "5";
             this.btn5_2.UseVisualStyleBackColor = true;
@@ -441,9 +441,9 @@
             // 
             // btn6_2
             // 
-            this.btn6_2.Location = new System.Drawing.Point(3, 189);
+            this.btn6_2.Location = new System.Drawing.Point(279, 3);
             this.btn6_2.Name = "btn6_2";
-            this.btn6_2.Size = new System.Drawing.Size(50, 25);
+            this.btn6_2.Size = new System.Drawing.Size(40, 40);
             this.btn6_2.TabIndex = 6;
             this.btn6_2.Text = "6";
             this.btn6_2.UseVisualStyleBackColor = true;
@@ -451,9 +451,9 @@
             // 
             // btn7_2
             // 
-            this.btn7_2.Location = new System.Drawing.Point(3, 220);
+            this.btn7_2.Location = new System.Drawing.Point(325, 3);
             this.btn7_2.Name = "btn7_2";
-            this.btn7_2.Size = new System.Drawing.Size(50, 25);
+            this.btn7_2.Size = new System.Drawing.Size(40, 40);
             this.btn7_2.TabIndex = 7;
             this.btn7_2.Text = "7";
             this.btn7_2.UseVisualStyleBackColor = true;
@@ -461,9 +461,9 @@
             // 
             // btn8_2
             // 
-            this.btn8_2.Location = new System.Drawing.Point(3, 251);
+            this.btn8_2.Location = new System.Drawing.Point(371, 3);
             this.btn8_2.Name = "btn8_2";
-            this.btn8_2.Size = new System.Drawing.Size(50, 25);
+            this.btn8_2.Size = new System.Drawing.Size(40, 40);
             this.btn8_2.TabIndex = 8;
             this.btn8_2.Text = "8";
             this.btn8_2.UseVisualStyleBackColor = true;
@@ -471,9 +471,9 @@
             // 
             // btn9_2
             // 
-            this.btn9_2.Location = new System.Drawing.Point(3, 282);
+            this.btn9_2.Location = new System.Drawing.Point(417, 3);
             this.btn9_2.Name = "btn9_2";
-            this.btn9_2.Size = new System.Drawing.Size(50, 25);
+            this.btn9_2.Size = new System.Drawing.Size(40, 40);
             this.btn9_2.TabIndex = 9;
             this.btn9_2.Text = "9";
             this.btn9_2.UseVisualStyleBackColor = true;
@@ -481,9 +481,9 @@
             // 
             // btn10_2
             // 
-            this.btn10_2.Location = new System.Drawing.Point(3, 313);
+            this.btn10_2.Location = new System.Drawing.Point(463, 3);
             this.btn10_2.Name = "btn10_2";
-            this.btn10_2.Size = new System.Drawing.Size(50, 25);
+            this.btn10_2.Size = new System.Drawing.Size(40, 40);
             this.btn10_2.TabIndex = 10;
             this.btn10_2.Text = "10";
             this.btn10_2.UseVisualStyleBackColor = true;
@@ -494,7 +494,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(1102, 662);
+            this.ClientSize = new System.Drawing.Size(1349, 662);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.listBox2);

@@ -9,7 +9,7 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        private void task()
+        private void task()  //katlardaki düğmelere basıldıında gelen sıralama metotu.
         {
             int k = sira[0];
 
@@ -18,9 +18,11 @@ namespace elevatorSimulator
                 kuyruk1.Add(k);
             }
             else //tek sayı ise 2. asansörü çağır
-            { 
+            {
                 kuyruk2.Add(k);
             }
+
+            kuyruk();
         }
     }
 }
