@@ -11,10 +11,7 @@ namespace elevatorSimulator
     {
         private void task()
         {
-            int anaKonum = 0;
 
-            int ilk = kuyruk1[0];
-            kuyruk1.Remove(ilk);
         }
     }
 }

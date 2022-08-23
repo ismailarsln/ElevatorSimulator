@@ -25,7 +25,7 @@ namespace elevatorSimulator
         private int anaKat = 0;
         private int araKat = 5;
 
-        private void btn()
+        private void btn() //katlarda düğmelere basılınca
         {
             sira.Add(i);
 
@@ -35,6 +35,19 @@ namespace elevatorSimulator
             {
                 listBox1.Items.Add(siradaki);
             }
+            siraguncelle();
+        }
+
+        private void sol() //1. asansor içerisindeki düğmeler basılınca
+        {
+            kuyruk1.Add(i);
+
+            siraguncelle();
+        }
+
+        private void sag() //2. asansör içerisindeki düğmeler basılınca
+        {
+            kuyruk2.Add(i);
 
             siraguncelle();
         }
@@ -57,12 +70,5 @@ namespace elevatorSimulator
 
             sira.Remove(i);
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
     }
 }

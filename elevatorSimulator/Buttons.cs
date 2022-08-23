@@ -11,132 +11,132 @@ namespace elevatorSimulator
         private void btn0_Click(object sender, EventArgs e)
         {
             i = 0;
-            btn();
+            sol();
         }
         private void btn1_Click(object sender, EventArgs e)
         {
             i = 1;
-            btn();
+            sol();
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
             i = 2;
-            btn();
+            sol();
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
             i = 3;
-            btn();
+            sol();
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
             i = 4;
-            btn();
+            sol();
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
             i = 5;
-            btn();
+            sol();
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
             i = 6;
-            btn();
+            sol();
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
             i = 7;
-            btn();
+            sol();
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
             i = 8;
-            btn();
+            sol();
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
             i = 9;
-            btn();
+            sol();
         }
 
         private void btn10_Click(object sender, EventArgs e)
         {
             i = 10;
-            btn();
+            sol();
         }
 
         private void btn0_1_Click(object sender, EventArgs e)
         {
             i = 0;
-            btn();
+            sag();
         }
 
         private void btn1_1_Click(object sender, EventArgs e)
         {
             i = 1;
-            btn();
+            sag();
         }
 
         private void btn2_1_Click(object sender, EventArgs e)
         {
             i = 2;
-            btn();
+            sag();
         }
 
         private void btn3_1_Click(object sender, EventArgs e)
         {
             i = 3;
-            btn();
+            sag();
         }
 
         private void btn4_1_Click(object sender, EventArgs e)
         {
             i = 4;
-            btn();
+            sag();
         }
 
         private void btn5_1_Click(object sender, EventArgs e)
         {
             i = 5;
-            btn();
+            sag();
         }
 
         private void btn6_1_Click(object sender, EventArgs e)
         {
             i = 6;
-            btn();
+            sag();
         }
 
         private void btn7_1_Click(object sender, EventArgs e)
         {
             i = 7;
-            btn();
+            sag();
         }
 
         private void btn8_1_Click(object sender, EventArgs e)
         {
             i = 8;
-            btn();
+            sag();
         }
 
         private void btn9_1_Click(object sender, EventArgs e)
         {
             i = 9;
-            btn();
+            sag();
         }
 
         private void btn10_1_Click(object sender, EventArgs e)
         {
             i = 10;
-            btn();
+            sag();
         }
 
         private void btn0_2_Click(object sender, EventArgs e)
