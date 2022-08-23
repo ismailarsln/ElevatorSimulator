@@ -11,19 +11,15 @@ namespace elevatorSimulator
     {
         private void controller()
         {
-            if (!(sira.Count == 0))
+            if (!(sira.Count == 0)) //katlardaki düğmelere basıldığında
             {
-                int k = sira[0];
-
-                kuyruk1.Add(k);
-
                 task();
             }
-            if (kuyruk1.Count == 0) //asansör1 boşa çıktığında uyarı gelecek.
+            if (kuyruk1.Count == 0) //asansör1 boşa çıktığında olacaklar
             {
                 kuyruk1.Add(araKat);
             }
-            if (kuyruk2.Count == 0) //asansör2 boşa çıktığında uyarı gelecek.
+            if (kuyruk2.Count == 0) //asansör2 boşa çıktığında olacaklar
             {
                 kuyruk2.Add(anaKat);
             }

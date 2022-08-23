@@ -15,6 +15,7 @@ namespace elevatorSimulator
         public Form1()
         {
             InitializeComponent();
+            siraguncelle();
         }
 
         List<int> sira = new List<int>(); //tüm kuyruklar
@@ -25,7 +26,7 @@ namespace elevatorSimulator
         private int anaKat = 0;
         private int araKat = 5;
 
-        private void btn() //katlarda düğmelere basılınca
+        private void btn() //katlardaki düğmelere basılınca
         {
             sira.Add(i);
 

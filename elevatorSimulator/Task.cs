@@ -11,7 +11,16 @@ namespace elevatorSimulator
     {
         private void task()
         {
+            int k = sira[0];
 
+            if (k % 2 == 0) //çift sayı ise 1. asansörü çağır
+            {
+                kuyruk1.Add(k);
+            }
+            else //tek sayı ise 2. asansörü çağır
+            { 
+                kuyruk2.Add(k);
+            }
         }
     }
 }
