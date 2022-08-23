@@ -1,0 +1,208 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace elevatorSimulator
+{
+    public partial class Form1
+    {
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            i = 0;
+            btn();
+        }
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            i = 1;
+            btn();
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            i = 2;
+            btn();
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            i = 3;
+            btn();
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            i = 4;
+            btn();
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            i = 5;
+            btn();
+        }
+
+        private void btn6_Click(object sender, EventArgs e)
+        {
+            i = 6;
+            btn();
+        }
+
+        private void btn7_Click(object sender, EventArgs e)
+        {
+            i = 7;
+            btn();
+        }
+
+        private void btn8_Click(object sender, EventArgs e)
+        {
+            i = 8;
+            btn();
+        }
+
+        private void btn9_Click(object sender, EventArgs e)
+        {
+            i = 9;
+            btn();
+        }
+
+        private void btn10_Click(object sender, EventArgs e)
+        {
+            i = 10;
+            btn();
+        }
+
+        private void btn0_1_Click(object sender, EventArgs e)
+        {
+            i = 0;
+            btn();
+        }
+
+        private void btn1_1_Click(object sender, EventArgs e)
+        {
+            i = 1;
+            btn();
+        }
+
+        private void btn2_1_Click(object sender, EventArgs e)
+        {
+            i = 2;
+            btn();
+        }
+
+        private void btn3_1_Click(object sender, EventArgs e)
+        {
+            i = 3;
+            btn();
+        }
+
+        private void btn4_1_Click(object sender, EventArgs e)
+        {
+            i = 4;
+            btn();
+        }
+
+        private void btn5_1_Click(object sender, EventArgs e)
+        {
+            i = 5;
+            btn();
+        }
+
+        private void btn6_1_Click(object sender, EventArgs e)
+        {
+            i = 6;
+            btn();
+        }
+
+        private void btn7_1_Click(object sender, EventArgs e)
+        {
+            i = 7;
+            btn();
+        }
+
+        private void btn8_1_Click(object sender, EventArgs e)
+        {
+            i = 8;
+            btn();
+        }
+
+        private void btn9_1_Click(object sender, EventArgs e)
+        {
+            i = 9;
+            btn();
+        }
+
+        private void btn10_1_Click(object sender, EventArgs e)
+        {
+            i = 10;
+            btn();
+        }
+
+        private void btn0_2_Click(object sender, EventArgs e)
+        {
+            i = 0;
+            btn();
+        }
+
+        private void btn1_2_Click(object sender, EventArgs e)
+        {
+            i = 1;
+            btn();
+        }
+
+        private void btn2_2_Click(object sender, EventArgs e)
+        {
+            i = 2;
+            btn();
+        }
+
+        private void btn3_2_Click(object sender, EventArgs e)
+        {
+            i = 3;
+            btn();
+        }
+
+        private void btn4_2_Click(object sender, EventArgs e)
+        {
+            i = 4;
+            btn();
+        }
+
+        private void btn5_2_Click(object sender, EventArgs e)
+        {
+            i = 5;
+            btn();
+        }
+
+        private void btn6_2_Click(object sender, EventArgs e)
+        {
+            i = 6;
+            btn();
+        }
+
+        private void btn7_2_Click(object sender, EventArgs e)
+        {
+            i = 7;
+            btn();
+        }
+
+        private void btn8_2_Click(object sender, EventArgs e)
+        {
+            i = 8;
+            btn();
+        }
+
+        private void btn9_2_Click(object sender, EventArgs e)
+        {
+            i = 9;
+            btn();
+        }
+
+        private void btn10_2_Click(object sender, EventArgs e)
+        {
+            i = 10;
+            btn();
+        }
+    }
+}
