@@ -17,14 +17,13 @@ namespace elevatorSimulator
             }
             solkat();
         }
-        private void sagKuyruk() //listeyi siralacayak..
+
+        private void sagKuyruk()
         {
-            if (kuyruk2[0] == kuyruk2[1]) //eşitse son verileri sil..
+            if (kuyruk2[0] == kuyruk2[1])
             {
                 kuyruk2.RemoveAt(0);
             }
-
-            //kuyruk2.Sort();
             sagkat();
         }
     }

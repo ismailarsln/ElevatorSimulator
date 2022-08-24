@@ -13,8 +13,8 @@ namespace elevatorSimulator
         List<int> kuyruk1 = new List<int>(); //1. asansör için kuyruk
         List<int> kuyruk2 = new List<int>(); //2. asansör için kuyruk
 
-        private int i = 0;      //butonların değeri
-        public int anaKat = 0;
+        private int i = 0;  //butonların değeri
+        public int anaKat = 1;
         public int araKat = 5;
 
         private void btn() //katlardaki düğmelere basılınca
@@ -34,6 +34,7 @@ namespace elevatorSimulator
         {
             //kuyruk1.Add(i);
             kuyruk1.Insert(0, i);
+
             siraguncelle();
             solKuyruk();
         }
@@ -42,6 +43,7 @@ namespace elevatorSimulator
         {
             //kuyruk2.Add(i);
             kuyruk2.Insert(0, i);
+
             siraguncelle();
             sagKuyruk();
         }

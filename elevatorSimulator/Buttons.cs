@@ -8,11 +8,11 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        private int ilk = 1;
+        private int ilk = 1; //değişken
 
         private void solkat()
         {
-            ilk = kuyruk1[0]; //hep son indexteki rakamı çalıştırır.
+            ilk = kuyruk1[0]; //hep ilk indexteki rakamı çalıştırır.
 
             string kk = "solkat".ToString() + ilk;
             converter(kk);
