@@ -9,11 +9,23 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        private void kuyruk() //siralacayak..
+        private void solKuyruk() //listeyi siralacayak..
         {
+            if (kuyruk1[0] == kuyruk1[1]) //eşitse son verileri sil..
+            { 
+                kuyruk1.RemoveAt(0);
+            }
+            solkat();
+        }
+        private void sagKuyruk() //listeyi siralacayak..
+        {
+            if (kuyruk2[0] == kuyruk2[1]) //eşitse son verileri sil..
+            {
+                kuyruk2.RemoveAt(0);
+            }
 
-
-
+            //kuyruk2.Sort();
+            sagkat();
         }
     }
 }

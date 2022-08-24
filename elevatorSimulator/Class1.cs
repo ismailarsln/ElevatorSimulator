@@ -13,9 +13,9 @@ namespace elevatorSimulator
         List<int> kuyruk1 = new List<int>(); //1. asansör için kuyruk
         List<int> kuyruk2 = new List<int>(); //2. asansör için kuyruk
 
-        private int i = 0;
-        private int anaKat = 0;
-        private int araKat = 5;
+        private int i = 0;      //butonların değeri
+        public int anaKat = 0;
+        public int araKat = 5;
 
         private void btn() //katlardaki düğmelere basılınca
         {
@@ -32,23 +32,25 @@ namespace elevatorSimulator
 
         private void sol() //1. asansor içerisindeki düğmeler basılınca
         {
-            kuyruk1.Add(i);
-
+            //kuyruk1.Add(i);
+            kuyruk1.Insert(0, i);
             siraguncelle();
+            solKuyruk();
         }
 
         private void sag() //2. asansör içerisindeki düğmeler basılınca
         {
-            kuyruk2.Add(i);
-
+            //kuyruk2.Add(i);
+            kuyruk2.Insert(0, i);
             siraguncelle();
+            sagKuyruk();
         }
 
         private void siraguncelle()
         {
             controller();
 
-            listBox2.Items.Clear();
+            listBox2.Items.Clear(); //güncel tutulması sağlanıyor..
             listBox3.Items.Clear();
 
             foreach (int siradaki in kuyruk1)

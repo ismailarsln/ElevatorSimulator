@@ -24,20 +24,20 @@ namespace elevatorSimulator
 
             if (k % 2 == 0) //çift sayı ise 1. asansörü çağır
             {
-                kuyruk1.Add(k);
+                //kuyruk1.Add(k);
+                kuyruk1.Insert(0, k);
 
                 string kk = "solkat".ToString() + k;
                 converter(kk);
             }
             else //tek sayı ise 2. asansörü çağır
             {
-                kuyruk2.Add(k);
+                //kuyruk2.Add(k);
+                kuyruk1.Insert(0, k);
 
                 string kk = "sagkat".ToString() + k;
                 converter(kk);
             }
-
-            kuyruk();
         }
     }
 }
