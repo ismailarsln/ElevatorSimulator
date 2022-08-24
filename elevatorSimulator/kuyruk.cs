@@ -9,14 +9,11 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        private void kuyruk() //burada hareket ettireceğiz...
+        private void kuyruk() //siralacayak..
         {
-            if (kuyruk1[i] == i)
-            {
-                kuyruk1.Remove(i);
 
-                siraguncelle();
-            }
+
+
         }
     }
 }
