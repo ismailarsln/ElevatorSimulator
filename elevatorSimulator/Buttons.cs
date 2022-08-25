@@ -25,11 +25,11 @@ namespace elevatorSimulator
             converter(kk);
         }
 
-        //asansör düğmeleri:
+        //asansör düğmeleri
         private void btn1_Click(object sender, EventArgs e)
         {
             i = 1;
-            sol(); //kuyruğa ekleme:
+            sol(); //kuyruğa ekleme
         }
 
         private void btn2_Click(object sender, EventArgs e)

@@ -12,17 +12,17 @@ namespace elevatorSimulator
     {
         private void solKuyruk() //listeyi siralacayak..
         {
-            if (kuyruk1[0] == kuyruk1[1]) //eşitse son verileri sil..
-            { 
-                kuyruk1.RemoveAt(0);
+            if (kuyruk1[kuyruk1.Count - 1] == kuyruk1[kuyruk1.Count-2]) //eşitse son verileri sil..
+            {
+               kuyruk1.RemoveAt(kuyruk1.Count - 1);
             }
         }
 
         private void sagKuyruk()
         {
-            if (kuyruk2[0] == kuyruk2[1])
+            if (kuyruk2[kuyruk2.Count - 1] == kuyruk2[kuyruk2.Count - 2])
             {
-                kuyruk2.RemoveAt(0);
+                kuyruk2.RemoveAt(kuyruk2.Count - 1);
             }
         }
     }

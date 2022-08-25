@@ -25,7 +25,7 @@ namespace elevatorSimulator
 
         private void sol() //1. asansor içerisindeki düğmeler basılınca
         {
-            kuyruk1.Insert(0, i); //liste 1e ekleme yapıyor.
+            kuyruk1.Add(i); //liste 1e ekleme yapıyor.
             solKuyruk();          //liste 1 sıralaması yapılıyor.
             t.Enabled = true;     //5 saniye ve sonrasında konum güncelleniyor.
             siraguncelle();       //
@@ -33,7 +33,7 @@ namespace elevatorSimulator
 
         private void sag() //2. asansör içerisindeki düğmeler basılınca
         {
-            kuyruk2.Insert(0, i);
+            kuyruk2.Add(i);
             sagKuyruk();
             t2.Enabled = true;
             siraguncelle();

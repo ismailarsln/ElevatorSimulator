@@ -16,11 +16,11 @@ namespace elevatorSimulator
 
             if (k % 2 == 0) //çift sayı ise 1. asansörü çağır
             {
-                kuyruk1.Insert(0, k);
+                kuyruk1.Add(k);
 
-                if (kuyruk1[0] == kuyruk1[1]) //eşitse son verileri sil..
+                if (kuyruk1[kuyruk1.Count - 1] == kuyruk1[kuyruk1.Count - 2]) //eşitse son verileri sil..
                 {
-                    kuyruk1.RemoveAt(0);
+                    kuyruk1.RemoveAt(kuyruk1.Count - 1);
                 }
 
                 string slkt = "solkat".ToString() + k;
@@ -29,11 +29,11 @@ namespace elevatorSimulator
 
             else //tek sayı ise 2. asansörü çağır
             {
-                kuyruk2.Insert(0, k);
+                kuyruk2.Add(k);
 
-                if (kuyruk2[0] == kuyruk2[1])
+                if (kuyruk2[kuyruk2.Count - 1] == kuyruk2[kuyruk2.Count - 2])
                 {
-                    kuyruk2.RemoveAt(0);
+                    kuyruk2.RemoveAt(kuyruk2.Count - 1);
                 }
 
                 string sgkt = "sagkat".ToString() + k;
