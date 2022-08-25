@@ -19,11 +19,13 @@ namespace elevatorSimulator
             {
                 if (kuyruk1.Count == 0) //asansör1 boşa çıktığında olacaklar
                 {
-                    kuyruk1.Add(araKat);
+                    kuyruk1.Insert(0, araKat);
+                    solkat();
                 }
                 if (kuyruk2.Count == 0) //asansör2 boşa çıktığında olacaklar
                 {
-                    kuyruk2.Add(anaKat);
+                    kuyruk2.Insert(0, anaKat);
+                    sagkat();
                 }
             }
         }

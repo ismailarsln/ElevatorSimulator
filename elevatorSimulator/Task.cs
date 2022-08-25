@@ -10,30 +10,31 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        private void converter(string yazi)
-        {
-            Type thisType = this.GetType();
-            MethodInfo theMethod = thisType
-                .GetMethod(yazi, BindingFlags.NonPublic | BindingFlags.Instance);
-            theMethod.Invoke(this, null);
-        }
-
-        private void task()  //katlardaki düğmelere basıldığında gelen sıralama metodu.
+        private void task()  //ara katlardaki düğmelere basıldığında çalışacak metot
         {
             int k = sira[0];
 
             if (k % 2 == 0) //çift sayı ise 1. asansörü çağır
             {
-                //kuyruk1.Add(k);
                 kuyruk1.Insert(0, k);
+
+                if (kuyruk1[0] == kuyruk1[1]) //eşitse son verileri sil..
+                {
+                    kuyruk1.RemoveAt(0);
+                }
 
                 string kk = "solkat".ToString() + k;
                 converter(kk);
             }
+
             else //tek sayı ise 2. asansörü çağır
             {
-                //kuyruk2.Add(k);
-                kuyruk1.Insert(0, k);
+                kuyruk2.Insert(0, k);
+
+                if (kuyruk2[0] == kuyruk2[1])
+                {
+                    kuyruk2.RemoveAt(0);
+                }
 
                 string kk = "sagkat".ToString() + k;
                 converter(kk);
