@@ -15,7 +15,7 @@ namespace elevatorSimulator
             { 
                 kuyruk1.RemoveAt(0);
             }
-            solkat();
+            solkat(); //hareketi devam ettirecek:
         }
         private void sagKuyruk() //listeyi siralacayak..
         {

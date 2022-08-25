@@ -840,7 +840,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Elevator Simulator";
-            this.Load += new System.EventHandler(this.Form1_Load);
+           
             ((System.ComponentModel.ISupportInitialize)(this.solkapi1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.solkapi2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.solkapi3)).EndInit();

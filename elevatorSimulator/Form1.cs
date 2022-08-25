@@ -16,15 +16,10 @@ namespace elevatorSimulator
         {
             InitializeComponent();
 
-            siraguncelle();
+            siraguncelle(); //listelerin güncel tutulmasını sağlayan method:
         }
 
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
+        // kabin hareketini yönetiyor: //animasyonlu geçişler gelecek
         private void solkat1()
         {
             kabinsol.Location = new Point(solkapi1.Location.X - 45, 450);

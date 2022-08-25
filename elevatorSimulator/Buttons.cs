@@ -14,8 +14,9 @@ namespace elevatorSimulator
         {
             ilk = kuyruk1[0]; //hep son indexteki rakamı çalıştırır.
 
+            //solkat1 kısaltmak:
             string kk = "solkat".ToString() + ilk;
-            converter(kk);
+            converter(kk); // converter methodunu cagırdık
         }
         private void sagkat()
         {
@@ -25,11 +26,11 @@ namespace elevatorSimulator
             converter(kk);
         }
 
-
+        //asansör düğmeleri:
         private void btn1_Click(object sender, EventArgs e)
         {
             i = 1;
-            sol();
+            sol(); //kuyruğa ekleme:
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -86,10 +87,11 @@ namespace elevatorSimulator
             sol();
         }
 
+        //sag asansör içi düğmeler:
         private void btn1_1_Click(object sender, EventArgs e)
         {
             i = 1;
-            sag();
+            sag(); //sag kuyruğa ekleme işlemi:
         }
 
         private void btn2_1_Click(object sender, EventArgs e)
@@ -146,10 +148,11 @@ namespace elevatorSimulator
             sag();
         }
 
+        //orta butonlar:
         private void btn1_2_Click(object sender, EventArgs e)
         {
             i = 1;
-            btn();
+            btn(); //sira listesine ekleme:
         }
 
         private void btn2_2_Click(object sender, EventArgs e)
