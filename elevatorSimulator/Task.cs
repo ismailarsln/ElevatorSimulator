@@ -23,8 +23,8 @@ namespace elevatorSimulator
                     kuyruk1.RemoveAt(0);
                 }
 
-                string kk = "solkat".ToString() + k;
-                converter(kk);
+                string slkt = "solkat".ToString() + k;
+                converter(slkt);
             }
 
             else //tek sayı ise 2. asansörü çağır
@@ -36,8 +36,8 @@ namespace elevatorSimulator
                     kuyruk2.RemoveAt(0);
                 }
 
-                string kk = "sagkat".ToString() + k;
-                converter(kk);
+                string sgkt = "sagkat".ToString() + k;
+                converter(sgkt);
             }
         }
     }

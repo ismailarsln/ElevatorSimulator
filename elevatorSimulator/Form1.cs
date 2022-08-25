@@ -20,12 +20,30 @@ namespace elevatorSimulator
                 .GetMethod(yazi, BindingFlags.NonPublic | BindingFlags.Instance);
             theMethod.Invoke(this, null);
         }
+        private Timer t = new Timer();
+        private Timer t2 = new Timer();
 
         public Form1()
         {
             InitializeComponent();
 
+            t.Interval = 5000;
+            t.Tick += new EventHandler(t_Tick);
+
+            t2.Interval = 5000;
+            t2.Tick += new EventHandler(t2_Tick);
+
             siraguncelle();
+        }
+
+        void t_Tick(object sender, EventArgs e)
+        {
+            solkat();
+        }
+
+        void t2_Tick(object sender, EventArgs e)
+        {
+            sagkat();
         }
 
         private void solkat1()
@@ -182,6 +200,11 @@ namespace elevatorSimulator
             //kabinsag.Location = new Point(sagkapi10.Location.X - 45, 0);
             acikkapisag.Location = new Point(sagkapi10.Location.X, sagkapi10.Location.Y);
             acikkapisag.Visible = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }

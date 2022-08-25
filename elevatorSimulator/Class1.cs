@@ -34,7 +34,7 @@ namespace elevatorSimulator
         {
             //kuyruk1.Add(i);
             kuyruk1.Insert(0, i);
-
+            t.Enabled = true;
             siraguncelle();
             solKuyruk();
         }
@@ -43,7 +43,7 @@ namespace elevatorSimulator
         {
             //kuyruk2.Add(i);
             kuyruk2.Insert(0, i);
-
+            t2.Enabled = true;
             siraguncelle();
             sagKuyruk();
         }
