@@ -39,11 +39,13 @@ namespace elevatorSimulator
         void t_Tick(object sender, EventArgs e)
         {
             solkat();
+            t.Enabled = false;
         }
 
         void t2_Tick(object sender, EventArgs e)
         {
             sagkat();
+            t2.Enabled = false;
         }
 
         private void solkat1()

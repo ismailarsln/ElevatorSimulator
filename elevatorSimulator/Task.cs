@@ -10,7 +10,7 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        private void task()  //ara katlardaki düğmelere basıldığında çalışacak metot
+        private void task() //ara katlardaki düğmelere basıldığında çalışacak metot
         {
             int k = sira[0];
 

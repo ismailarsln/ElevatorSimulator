@@ -20,41 +20,37 @@ namespace elevatorSimulator
         private void btn() //katlardaki düğmelere basılınca
         {
             sira.Add(i);
-
-            listBox1.Items.Clear();
-
-            foreach (int siradaki in sira)
-            {
-                listBox1.Items.Add(siradaki);
-            }
             siraguncelle();
         }
 
         private void sol() //1. asansor içerisindeki düğmeler basılınca
         {
-            //kuyruk1.Add(i);
-            kuyruk1.Insert(0, i);
-            t.Enabled = true;
-            siraguncelle();
-            solKuyruk();
+            kuyruk1.Insert(0, i); //liste 1e ekleme yapıyor.
+            solKuyruk();          //liste 1 sıralaması yapılıyor.
+            t.Enabled = true;     //5 saniye ve sonrasında konum güncelleniyor.
+            siraguncelle();       //
         }
 
         private void sag() //2. asansör içerisindeki düğmeler basılınca
         {
-            //kuyruk2.Add(i);
             kuyruk2.Insert(0, i);
+            sagKuyruk();
             t2.Enabled = true;
             siraguncelle();
-            sagKuyruk();
         }
 
         private void siraguncelle()
         {
             controller();
 
-            listBox2.Items.Clear(); //güncel tutulması sağlanıyor..
+            listBox1.Items.Clear(); //güncel tutulması sağlanıyor..
+            listBox2.Items.Clear();
             listBox3.Items.Clear();
 
+            foreach (int siradaki in sira)
+            {
+                listBox1.Items.Add(siradaki);
+            }
             foreach (int siradaki in kuyruk1)
             {
                 listBox2.Items.Add(siradaki);

@@ -9,7 +9,7 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        private void controller() //asansöre istek gelmezse:00000
+        private void controller() //asansöre istek ile ilgili
         {
             if (!(sira.Count == 0)) //katlardaki düğmelere basıldığında
             {
