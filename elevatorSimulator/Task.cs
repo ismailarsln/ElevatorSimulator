@@ -22,9 +22,6 @@ namespace elevatorSimulator
                 {
                     kuyruk1.RemoveAt(kuyruk1.Count - 1);
                 }
-
-                string slkt = "solkat".ToString() + k;
-                converter(slkt);
             }
 
             else //tek sayı ise 2. asansörü çağır
@@ -35,9 +32,6 @@ namespace elevatorSimulator
                 {
                     kuyruk2.RemoveAt(kuyruk2.Count - 1);
                 }
-
-                string sgkt = "sagkat".ToString() + k;
-                converter(sgkt);
             }
         }
     }
