@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,6 @@ namespace elevatorSimulator
             { 
                 kuyruk1.RemoveAt(0);
             }
-            solkat(); //hareketi devam ettirecek:
         }
 
         private void sagKuyruk()
@@ -24,7 +24,6 @@ namespace elevatorSimulator
             {
                 kuyruk2.RemoveAt(0);
             }
-            sagkat();
         }
     }
 }

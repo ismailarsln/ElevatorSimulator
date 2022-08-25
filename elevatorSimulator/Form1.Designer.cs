@@ -83,9 +83,7 @@
             this.btn8_1 = new System.Windows.Forms.Button();
             this.btn9_1 = new System.Windows.Forms.Button();
             this.btn10_1 = new System.Windows.Forms.Button();
-            this.kabinsol = new System.Windows.Forms.PictureBox();
             this.acikkapisol = new System.Windows.Forms.PictureBox();
-            this.kabinsag = new System.Windows.Forms.PictureBox();
             this.acikkapisag = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -97,6 +95,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.yedekBox1 = new System.Windows.Forms.ListBox();
+            this.yedekBox2 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.solkapi1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.solkapi2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.solkapi3)).BeginInit();
@@ -119,9 +119,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.sagkapi10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kabinsol)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.acikkapisol)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kabinsag)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.acikkapisag)).BeginInit();
             this.SuspendLayout();
             // 
@@ -738,17 +736,6 @@
             this.btn10_1.UseVisualStyleBackColor = true;
             this.btn10_1.Click += new System.EventHandler(this.btn10_1_Click);
             // 
-            // kabinsol
-            // 
-            this.kabinsol.Image = global::elevatorSimulator.Properties.Resources.kabin;
-            this.kabinsol.Location = new System.Drawing.Point(277, 610);
-            this.kabinsol.Name = "kabinsol";
-            this.kabinsol.Size = new System.Drawing.Size(81, 71);
-            this.kabinsol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.kabinsol.TabIndex = 60;
-            this.kabinsol.TabStop = false;
-            this.kabinsol.Visible = false;
-            // 
             // acikkapisol
             // 
             this.acikkapisol.Image = global::elevatorSimulator.Properties.Resources.tamacikkapi;
@@ -759,17 +746,6 @@
             this.acikkapisol.TabIndex = 61;
             this.acikkapisol.TabStop = false;
             this.acikkapisol.Visible = false;
-            // 
-            // kabinsag
-            // 
-            this.kabinsag.Image = global::elevatorSimulator.Properties.Resources.kabin;
-            this.kabinsag.Location = new System.Drawing.Point(842, 610);
-            this.kabinsag.Name = "kabinsag";
-            this.kabinsag.Size = new System.Drawing.Size(81, 71);
-            this.kabinsag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.kabinsag.TabIndex = 62;
-            this.kabinsag.TabStop = false;
-            this.kabinsag.Visible = false;
             // 
             // acikkapisag
             // 
@@ -882,6 +858,24 @@
             this.label10.TabIndex = 73;
             this.label10.Text = "10. KAT";
             // 
+            // yedekBox1
+            // 
+            this.yedekBox1.FormattingEnabled = true;
+            this.yedekBox1.ItemHeight = 16;
+            this.yedekBox1.Location = new System.Drawing.Point(18, 521);
+            this.yedekBox1.Name = "yedekBox1";
+            this.yedekBox1.Size = new System.Drawing.Size(78, 164);
+            this.yedekBox1.TabIndex = 74;
+            // 
+            // yedekBox2
+            // 
+            this.yedekBox2.FormattingEnabled = true;
+            this.yedekBox2.ItemHeight = 16;
+            this.yedekBox2.Location = new System.Drawing.Point(1054, 521);
+            this.yedekBox2.Name = "yedekBox2";
+            this.yedekBox2.Size = new System.Drawing.Size(78, 164);
+            this.yedekBox2.TabIndex = 75;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -889,6 +883,8 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = global::elevatorSimulator.Properties.Resources.arkaplan;
             this.ClientSize = new System.Drawing.Size(1170, 709);
+            this.Controls.Add(this.yedekBox2);
+            this.Controls.Add(this.yedekBox1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -900,9 +896,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.acikkapisag);
-            this.Controls.Add(this.kabinsag);
             this.Controls.Add(this.acikkapisol);
-            this.Controls.Add(this.kabinsol);
             this.Controls.Add(this.btn10_1);
             this.Controls.Add(this.btn9_1);
             this.Controls.Add(this.btn8_1);
@@ -986,9 +980,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.sagkapi10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kabinsol)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.acikkapisol)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kabinsag)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.acikkapisag)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1051,9 +1043,7 @@
         private System.Windows.Forms.Button btn8_1;
         private System.Windows.Forms.Button btn9_1;
         private System.Windows.Forms.Button btn10_1;
-        private System.Windows.Forms.PictureBox kabinsol;
         private System.Windows.Forms.PictureBox acikkapisol;
-        private System.Windows.Forms.PictureBox kabinsag;
         private System.Windows.Forms.PictureBox acikkapisag;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -1065,5 +1055,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ListBox yedekBox1;
+        private System.Windows.Forms.ListBox yedekBox2;
     }
 }

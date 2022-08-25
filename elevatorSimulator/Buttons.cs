@@ -14,7 +14,6 @@ namespace elevatorSimulator
         {
             ilk = kuyruk1[0]; //hep ilk indexteki rakamı çalıştırır.
 
-            //solkat1 kısaltmak:
             string kk = "solkat".ToString() + ilk;
             converter(kk); // converter methodunu cagırdık
         }
