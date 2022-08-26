@@ -13,6 +13,9 @@ namespace elevatorSimulator
         List<int> kuyruk1 = new List<int>(); //1. asansör için kuyruk
         List<int> kuyruk2 = new List<int>(); //2. asansör için kuyruk
 
+        List<int> yedek1 = new List<int>(); //2. asansör için kuyruk
+        List<int> yedek2 = new List<int>(); //2. asansör için kuyruk
+
         private int i = 0;  //butonların değeri
         public int anaKat = 1;
         public int araKat = 5;

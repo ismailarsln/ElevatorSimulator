@@ -14,23 +14,20 @@ namespace elevatorSimulator
         {
             int k = sira[0];
 
-            if (k % 2 == 0) //çift sayı ise 1. asansörü çağır
+            if (kuyruk1.Count > 1)
             {
-                kuyruk1.Add(k);
+                int k1 = kuyruk1[kuyruk1.Count - 2]; //ilk eleman
+                int k2 = kuyruk1[kuyruk1.Count - 1]; //son eleman
 
-                if (kuyruk1[kuyruk1.Count - 1] == kuyruk1[kuyruk1.Count - 2]) //eşitse son verileri sil..
+                if (k1 < k2) //yukari çıktığı durumda
                 {
-                    kuyruk1.RemoveAt(kuyruk1.Count - 1);
+                    kuyruk1.Add(k);
+                    solKuyruk();
                 }
-            }
-
-            else //tek sayı ise 2. asansörü çağır
-            {
-                kuyruk2.Add(k);
-
-                if (kuyruk2[kuyruk2.Count - 1] == kuyruk2[kuyruk2.Count - 2])
+                else if (k2 < k1)
                 {
-                    kuyruk2.RemoveAt(kuyruk2.Count - 1);
+                    kuyruk2.Add(k);
+                    sagKuyruk();
                 }
             }
         }

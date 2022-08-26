@@ -73,6 +73,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Task.cs">
       <SubType>Form</SubType>
     </Compile>
