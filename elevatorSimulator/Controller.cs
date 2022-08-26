@@ -17,6 +17,19 @@ namespace elevatorSimulator
             }
             else
             {
+                if (kuyruk1.Count == 0) 
+                { 
+                    kuyruk1 = yedek1.ToList();
+                    yedek1.Clear();
+                    yedekBox1.Items.Clear();
+                }
+                if (kuyruk2.Count == 0)
+                {
+                    kuyruk2 = yedek2.ToList();
+                    yedek2.Clear();
+                    yedekBox2.Items.Clear();
+                }
+
                 if (kuyruk1.Count == 0) //asansör1 boşa çıktığında olacaklar
                 {
                     kuyruk1.Add(araKat);

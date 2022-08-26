@@ -20,7 +20,7 @@ namespace elevatorSimulator
                 .GetMethod(yazi, BindingFlags.NonPublic | BindingFlags.Instance);
             theMethod.Invoke(this, null);
         }
-        private Timer t = new Timer(); //solkat arası geçiş için geçen 5 saniye
+        private Timer t = new Timer();  //solkat arası geçiş için geçen 5 saniye
         private Timer t2 = new Timer(); //sagkat arası geçiş için geçen 5 saniye
         private Timer t3 = new Timer(); //30 saniye
         private Timer t4 = new Timer(); //30 saniye
@@ -42,7 +42,7 @@ namespace elevatorSimulator
             t4.Interval = 5000;
             t4.Tick += new EventHandler(t4_Tick);
             t2.Enabled = true;
-            t.Enabled = true;     //5 saniye ve sonrasında konum güncelleniyor.
+            t.Enabled = true;   //5 saniye ve sonrasında konum güncelleniyor.
             siraguncelle();
         }
 

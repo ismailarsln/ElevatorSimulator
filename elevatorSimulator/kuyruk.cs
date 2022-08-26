@@ -12,9 +12,9 @@ namespace elevatorSimulator
     {
         int degismez = 0;
 
-        private void solKuyruk() //listeyi siralacayak..
+        private void solKuyruk() //listeyi siralacayak.
         {
-            if (kuyruk1[kuyruk1.Count - 1] == kuyruk1[kuyruk1.Count-2]) //eşitse son verileri sil..
+            if (kuyruk1[kuyruk1.Count - 1] == kuyruk1[kuyruk1.Count-2]) //eşitse son verileri sil.
             {
                kuyruk1.RemoveAt(kuyruk1.Count - 1);
             }
@@ -45,27 +45,50 @@ namespace elevatorSimulator
                             degismez = 0;
                         }
                     }
+                    kuyruk1.Sort();
                 }
+
                 else if (kuyruk1[0] > kuyruk1[1])
                 {
-                    if (kuyruk1[kuyruk1.Count - 1] > kuyruk1[0])
+                    if (degismez == 0)
                     {
-                        yedek1.Add(i);
-                        kuyruk1.RemoveAt(kuyruk1.Count - 1);
+                        degismez = kuyruk1[0];
+                        if (kuyruk1[kuyruk1.Count - 1] > degismez)
+                        {
+                            yedek1.Add(i);
+                            kuyruk1.RemoveAt(kuyruk1.Count - 1);
+                        }
                     }
+                    else
+                    {
+                        if (kuyruk1[kuyruk1.Count - 1] > degismez)
+                        {
+                            yedek1.Add(i);
+                            kuyruk1.RemoveAt(kuyruk1.Count - 1);
+                        }
+                        else
+                        {
+                            degismez = 0;
+                        }
+                    }
+                    
+                    kuyruk1.Sort();
+                    kuyruk1.Reverse();
                 }
 
                 kuyruk1 = kuyruk1.Distinct().ToList();
             }
 
-            yedekBox1.Items.Clear();
             yedek1 = yedek1.Distinct().ToList();
+            yedek1.Sort();
 
+            yedekBox1.Items.Clear();
             foreach (int siradaki in yedek1)
             {
                 yedekBox1.Items.Add(siradaki);
             }
         }
+
 
         private void sagKuyruk()
         {
@@ -100,22 +123,44 @@ namespace elevatorSimulator
                             degismez = 0;
                         }
                     }
+                    kuyruk2.Sort();
                 }
+
                 else if (kuyruk2[0] > kuyruk2[1])
                 {
-                    if (kuyruk2[kuyruk2.Count - 1] > kuyruk2[0])
+                    if (degismez == 0)
                     {
-                        yedek2.Add(i);
-                        kuyruk2.RemoveAt(kuyruk2.Count - 1);
+                        degismez = kuyruk2[1];
+                        if (kuyruk2[kuyruk2.Count - 1] > degismez)
+                        {
+                            yedek2.Add(i);
+                            kuyruk2.RemoveAt(kuyruk2.Count - 1);
+                        }
                     }
+                    else
+                    {
+                        if (kuyruk2[kuyruk2.Count - 1] > degismez)
+                        {
+                            yedek2.Add(i);
+                            kuyruk2.RemoveAt(kuyruk2.Count - 1);
+                        }
+                        else
+                        {
+                            degismez = 0;
+                        }
+                    }
+
+                    kuyruk2.Sort();
+                    kuyruk2.Reverse();
                 }
 
                 kuyruk2 = kuyruk2.Distinct().ToList();
             }
 
-            yedekBox2.Items.Clear();
             yedek2 = yedek2.Distinct().ToList();
+            yedek2.Sort();
 
+            yedekBox2.Items.Clear();
             foreach (int siradaki in yedek2)
             {
                 yedekBox2.Items.Add(siradaki);
