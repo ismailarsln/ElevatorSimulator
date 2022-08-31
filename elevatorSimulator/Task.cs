@@ -238,9 +238,116 @@ namespace elevatorSimulator
                     }
                 }
 
-                if (k1 < k2 && k3 > k4)
-                {
 
+                if (k1 < k2 && k3 > k4) //1. asansörün yukarı 2. aşağı gitme durumu
+                {
+                    if(k1 < k && k < k3)
+                    {
+                        int k7 = k - k1;
+                        int k8 = k3 - k;
+
+                        if (k7 < k8)
+                        {
+                            kuyruk1.Add(k);
+                            solKuyruk();
+                        }
+                        else
+                        {
+                            kuyruk2.Add(k);
+                            sagKuyruk();
+                        }
+                    }
+                    if (k3 < k && k < k1)
+                    {
+                        kuyruk1.Add(k);
+                        solKuyruk();
+                    }
+                    if (k < k1 && k1 < k3)
+                    {
+                        kuyruk2.Add(k);
+                        sagKuyruk();
+                    }
+                    if (k3 < k1 && k1 < k)
+                    {
+                        kuyruk1.Add(k);
+                        solKuyruk();
+                    }
+                    if (k < k3 && k3 < k1)
+                    {
+                        kuyruk2.Add(k);
+                        sagKuyruk();
+                    }
+                    if (k1 < k3 && k3 < k)
+                    {
+                        kuyruk1.Add(k);
+                        solKuyruk();
+                    }
+                    if (k < k3 && k1 == k3)
+                    {
+                        kuyruk2.Add(k);
+                        sagKuyruk();
+                    }
+                    if (k > k3 && k1 == k3)
+                    {
+                        kuyruk1.Add(k);
+                        solKuyruk();
+                    }
+                }
+
+
+                if (k1 > k2 && k3 < k4) //1. asansörün aşağı 2. yukarı gitme durumu
+                {
+                    if (k1 < k && k < k3)
+                    {
+                        kuyruk1.Add(k);
+                        solKuyruk();
+                    }
+                    if (k3 < k && k < k1) //else durumu
+                    {
+                        int k7 = k - k1;
+                        int k8 = k3 - k;
+
+                        if (k7 < k8)
+                        {
+                            kuyruk1.Add(k);
+                            solKuyruk();
+                        }
+                        else
+                        {
+                            kuyruk2.Add(k);
+                            sagKuyruk();
+                        }
+                    }
+                    if (k < k1 && k1 < k3)
+                    {
+                        kuyruk1.Add(k);
+                        solKuyruk();
+                    }
+                    if (k3 < k1 && k1 < k)
+                    {
+                        kuyruk2.Add(k);
+                        sagKuyruk();
+                    }
+                    if (k < k3 && k3 < k1)
+                    {
+                        kuyruk1.Add(k);
+                        solKuyruk();
+                    }
+                    if (k1 < k3 && k3 < k)
+                    {
+                        kuyruk2.Add(k);
+                        sagKuyruk();
+                    }
+                    if (k < k3 && k1 == k3)
+                    {
+                        kuyruk1.Add(k);
+                        solKuyruk();
+                    }
+                    if (k > k3 && k1 == k3)
+                    {
+                        kuyruk2.Add(k);
+                        sagKuyruk();
+                    }
                 }
             }
         }
