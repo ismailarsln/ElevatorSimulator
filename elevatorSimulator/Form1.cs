@@ -28,47 +28,59 @@ namespace elevatorSimulator
         public Form1()
         {
             InitializeComponent();
+
             kuyruk1.Add(araKat);
             kuyruk2.Add(anaKat);
+
             t.Interval = 5000;
             t.Tick += new EventHandler(t_Tick);
 
             t2.Interval = 5000;
             t2.Tick += new EventHandler(t2_Tick);
 
-            t3.Interval = 5000;
+            t3.Interval = 15000;
             t3.Tick += new EventHandler(t3_Tick);
 
-            t4.Interval = 5000;
+            t4.Interval = 15000;
             t4.Tick += new EventHandler(t4_Tick);
-            t2.Enabled = true;
-            t.Enabled = true;   //5 saniye ve sonrasında konum güncelleniyor.
+
+            t2.Enabled = true;  //5 saniyede bir güncelleme sağlıyor.
+            t.Enabled = true; 
             siraguncelle();
         }
 
         void t_Tick(object sender, EventArgs e)
         {
-            solkat();
-            kuyruk1.RemoveAt(0);
-            siraguncelle();
+            if (kuyruk1.Count > 0)
+            {
+                solkat();
+                kuyruk1.RemoveAt(0);
+                siraguncelle();
+            }
         }
 
         void t2_Tick(object sender, EventArgs e)
         {
-            sagkat();
-            kuyruk2.RemoveAt(0);
-            siraguncelle();
+            if (kuyruk2.Count > 0)
+            {
+                sagkat();
+                kuyruk2.RemoveAt(0);
+                siraguncelle();
+            }
         }
 
         void t3_Tick(object sender, EventArgs e)
         {
-            solkat();
+            kuyruk1.Add(araKat);
+            t3.Stop();
         }
 
         void t4_Tick(object sender, EventArgs e)
         {
-            sagkat();
+            kuyruk2.Add(anaKat);
+            t4.Stop();
         }
+
         private void solkat0()
         {
             acikkapisol.Location = new Point(solkapi0.Location.X, solkapi0.Location.Y);

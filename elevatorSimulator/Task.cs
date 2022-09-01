@@ -82,8 +82,8 @@ namespace elevatorSimulator
 
             if (kuyruk1.Count < 2 && kuyruk2.Count < 2) //2 asansör de bekleme konumunundaysa yakın olanın çağrılması
             {
-                int k1 = kuyruk1[kuyruk1.Count - 1]; //1. son elemanı
-                int k2 = kuyruk2[kuyruk2.Count - 1]; //2. son elemanı
+                int k1 = araKat; //1. son elemanı
+                int k2 = anaKat; //2. son elemanı
 
                 if(k < k1 && k < k2)
                 {

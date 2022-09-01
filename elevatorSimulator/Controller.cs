@@ -23,6 +23,7 @@ namespace elevatorSimulator
                     yedek1.Clear();
                     yedekBox1.Items.Clear();
                 }
+
                 if (kuyruk2.Count == 0)
                 {
                     kuyruk2 = yedek2.ToList();
@@ -32,11 +33,12 @@ namespace elevatorSimulator
 
                 if (kuyruk1.Count == 0) //asansör1 boşa çıktığında olacaklar
                 {
-                    kuyruk1.Add(araKat);
+                    t3.Start();
                 }
+
                 if (kuyruk2.Count == 0) //asansör2 boşa çıktığında olacaklar
                 {
-                    kuyruk2.Add(anaKat);
+                    t4.Start();
                 }
             }
         }

@@ -274,21 +274,23 @@
             // yedekBox1
             // 
             this.yedekBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.yedekBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.yedekBox1.FormattingEnabled = true;
             this.yedekBox1.ItemHeight = 16;
             this.yedekBox1.Location = new System.Drawing.Point(18, 429);
             this.yedekBox1.Name = "yedekBox1";
-            this.yedekBox1.Size = new System.Drawing.Size(45, 148);
+            this.yedekBox1.Size = new System.Drawing.Size(45, 146);
             this.yedekBox1.TabIndex = 74;
             // 
             // yedekBox2
             // 
             this.yedekBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.yedekBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.yedekBox2.FormattingEnabled = true;
             this.yedekBox2.ItemHeight = 16;
             this.yedekBox2.Location = new System.Drawing.Point(1086, 429);
             this.yedekBox2.Name = "yedekBox2";
-            this.yedekBox2.Size = new System.Drawing.Size(46, 148);
+            this.yedekBox2.Size = new System.Drawing.Size(46, 146);
             this.yedekBox2.TabIndex = 75;
             // 
             // tableLayoutPanel1
@@ -382,9 +384,9 @@
             this.btn0_1.BackColor = System.Drawing.Color.Transparent;
             this.btn0_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.zero;
             this.btn0_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn0_1.Location = new System.Drawing.Point(929, 501);
+            this.btn0_1.Location = new System.Drawing.Point(931, 501);
             this.btn0_1.Name = "btn0_1";
-            this.btn0_1.Size = new System.Drawing.Size(65, 59);
+            this.btn0_1.Size = new System.Drawing.Size(62, 56);
             this.btn0_1.TabIndex = 83;
             this.btn0_1.UseVisualStyleBackColor = false;
             this.btn0_1.Click += new System.EventHandler(this.btn0_1_Click);
@@ -394,9 +396,9 @@
             this.btn0.BackColor = System.Drawing.Color.Transparent;
             this.btn0.BackgroundImage = global::elevatorSimulator.Properties.Resources.zero;
             this.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn0.Location = new System.Drawing.Point(152, 501);
+            this.btn0.Location = new System.Drawing.Point(157, 501);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(65, 59);
+            this.btn0.Size = new System.Drawing.Size(62, 56);
             this.btn0.TabIndex = 82;
             this.btn0.UseVisualStyleBackColor = false;
             this.btn0.Click += new System.EventHandler(this.btn0_Click);
@@ -427,9 +429,9 @@
             this.btn10_1.BackColor = System.Drawing.Color.Transparent;
             this.btn10_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.ten;
             this.btn10_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn10_1.Location = new System.Drawing.Point(964, 176);
+            this.btn10_1.Location = new System.Drawing.Point(964, 191);
             this.btn10_1.Name = "btn10_1";
-            this.btn10_1.Size = new System.Drawing.Size(65, 59);
+            this.btn10_1.Size = new System.Drawing.Size(62, 56);
             this.btn10_1.TabIndex = 59;
             this.btn10_1.UseVisualStyleBackColor = false;
             this.btn10_1.Click += new System.EventHandler(this.btn10_1_Click);
@@ -439,9 +441,9 @@
             this.btn9_1.BackColor = System.Drawing.Color.Transparent;
             this.btn9_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.nine;
             this.btn9_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn9_1.Location = new System.Drawing.Point(893, 176);
+            this.btn9_1.Location = new System.Drawing.Point(896, 191);
             this.btn9_1.Name = "btn9_1";
-            this.btn9_1.Size = new System.Drawing.Size(65, 59);
+            this.btn9_1.Size = new System.Drawing.Size(62, 56);
             this.btn9_1.TabIndex = 58;
             this.btn9_1.UseVisualStyleBackColor = false;
             this.btn9_1.Click += new System.EventHandler(this.btn9_1_Click);
@@ -451,9 +453,9 @@
             this.btn8_1.BackColor = System.Drawing.Color.Transparent;
             this.btn8_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.eight;
             this.btn8_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn8_1.Location = new System.Drawing.Point(964, 241);
+            this.btn8_1.Location = new System.Drawing.Point(964, 253);
             this.btn8_1.Name = "btn8_1";
-            this.btn8_1.Size = new System.Drawing.Size(65, 59);
+            this.btn8_1.Size = new System.Drawing.Size(62, 56);
             this.btn8_1.TabIndex = 57;
             this.btn8_1.UseVisualStyleBackColor = false;
             this.btn8_1.Click += new System.EventHandler(this.btn8_1_Click);
@@ -463,9 +465,9 @@
             this.btn7_1.BackColor = System.Drawing.Color.Transparent;
             this.btn7_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.seven;
             this.btn7_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn7_1.Location = new System.Drawing.Point(893, 241);
+            this.btn7_1.Location = new System.Drawing.Point(896, 253);
             this.btn7_1.Name = "btn7_1";
-            this.btn7_1.Size = new System.Drawing.Size(65, 59);
+            this.btn7_1.Size = new System.Drawing.Size(62, 56);
             this.btn7_1.TabIndex = 56;
             this.btn7_1.UseVisualStyleBackColor = false;
             this.btn7_1.Click += new System.EventHandler(this.btn7_1_Click);
@@ -475,9 +477,9 @@
             this.btn6_1.BackColor = System.Drawing.Color.Transparent;
             this.btn6_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.six;
             this.btn6_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn6_1.Location = new System.Drawing.Point(964, 306);
+            this.btn6_1.Location = new System.Drawing.Point(964, 315);
             this.btn6_1.Name = "btn6_1";
-            this.btn6_1.Size = new System.Drawing.Size(65, 59);
+            this.btn6_1.Size = new System.Drawing.Size(62, 56);
             this.btn6_1.TabIndex = 55;
             this.btn6_1.UseVisualStyleBackColor = false;
             this.btn6_1.Click += new System.EventHandler(this.btn6_1_Click);
@@ -487,9 +489,9 @@
             this.btn5_1.BackColor = System.Drawing.Color.Transparent;
             this.btn5_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.five;
             this.btn5_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn5_1.Location = new System.Drawing.Point(893, 306);
+            this.btn5_1.Location = new System.Drawing.Point(896, 315);
             this.btn5_1.Name = "btn5_1";
-            this.btn5_1.Size = new System.Drawing.Size(65, 59);
+            this.btn5_1.Size = new System.Drawing.Size(62, 56);
             this.btn5_1.TabIndex = 54;
             this.btn5_1.UseVisualStyleBackColor = false;
             this.btn5_1.Click += new System.EventHandler(this.btn5_1_Click);
@@ -499,9 +501,9 @@
             this.btn4_1.BackColor = System.Drawing.Color.Transparent;
             this.btn4_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.four;
             this.btn4_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn4_1.Location = new System.Drawing.Point(964, 371);
+            this.btn4_1.Location = new System.Drawing.Point(964, 377);
             this.btn4_1.Name = "btn4_1";
-            this.btn4_1.Size = new System.Drawing.Size(65, 59);
+            this.btn4_1.Size = new System.Drawing.Size(62, 56);
             this.btn4_1.TabIndex = 53;
             this.btn4_1.UseVisualStyleBackColor = false;
             this.btn4_1.Click += new System.EventHandler(this.btn4_1_Click);
@@ -511,9 +513,9 @@
             this.btn3_1.BackColor = System.Drawing.Color.Transparent;
             this.btn3_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.tree;
             this.btn3_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn3_1.Location = new System.Drawing.Point(893, 371);
+            this.btn3_1.Location = new System.Drawing.Point(896, 377);
             this.btn3_1.Name = "btn3_1";
-            this.btn3_1.Size = new System.Drawing.Size(65, 59);
+            this.btn3_1.Size = new System.Drawing.Size(62, 56);
             this.btn3_1.TabIndex = 52;
             this.btn3_1.UseVisualStyleBackColor = false;
             this.btn3_1.Click += new System.EventHandler(this.btn3_1_Click);
@@ -523,9 +525,9 @@
             this.btn2_1.BackColor = System.Drawing.Color.Transparent;
             this.btn2_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.two;
             this.btn2_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn2_1.Location = new System.Drawing.Point(964, 436);
+            this.btn2_1.Location = new System.Drawing.Point(964, 439);
             this.btn2_1.Name = "btn2_1";
-            this.btn2_1.Size = new System.Drawing.Size(65, 59);
+            this.btn2_1.Size = new System.Drawing.Size(62, 56);
             this.btn2_1.TabIndex = 51;
             this.btn2_1.UseVisualStyleBackColor = false;
             this.btn2_1.Click += new System.EventHandler(this.btn2_1_Click);
@@ -535,9 +537,9 @@
             this.btn1_1.BackColor = System.Drawing.Color.Transparent;
             this.btn1_1.BackgroundImage = global::elevatorSimulator.Properties.Resources.one;
             this.btn1_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn1_1.Location = new System.Drawing.Point(893, 436);
+            this.btn1_1.Location = new System.Drawing.Point(896, 439);
             this.btn1_1.Name = "btn1_1";
-            this.btn1_1.Size = new System.Drawing.Size(65, 59);
+            this.btn1_1.Size = new System.Drawing.Size(62, 56);
             this.btn1_1.TabIndex = 50;
             this.btn1_1.UseVisualStyleBackColor = false;
             this.btn1_1.Click += new System.EventHandler(this.btn1_1_Click);
@@ -547,9 +549,9 @@
             this.btn10.BackColor = System.Drawing.Color.Transparent;
             this.btn10.BackgroundImage = global::elevatorSimulator.Properties.Resources.ten;
             this.btn10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn10.Location = new System.Drawing.Point(192, 176);
+            this.btn10.Location = new System.Drawing.Point(192, 191);
             this.btn10.Name = "btn10";
-            this.btn10.Size = new System.Drawing.Size(65, 59);
+            this.btn10.Size = new System.Drawing.Size(62, 56);
             this.btn10.TabIndex = 49;
             this.btn10.UseVisualStyleBackColor = false;
             this.btn10.Click += new System.EventHandler(this.btn10_Click);
@@ -559,9 +561,9 @@
             this.btn9.BackColor = System.Drawing.Color.Transparent;
             this.btn9.BackgroundImage = global::elevatorSimulator.Properties.Resources.nine;
             this.btn9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn9.Location = new System.Drawing.Point(121, 176);
+            this.btn9.Location = new System.Drawing.Point(124, 191);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(65, 59);
+            this.btn9.Size = new System.Drawing.Size(62, 56);
             this.btn9.TabIndex = 48;
             this.btn9.UseVisualStyleBackColor = false;
             this.btn9.Click += new System.EventHandler(this.btn9_Click);
@@ -571,9 +573,9 @@
             this.btn8.BackColor = System.Drawing.Color.Transparent;
             this.btn8.BackgroundImage = global::elevatorSimulator.Properties.Resources.eight;
             this.btn8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn8.Location = new System.Drawing.Point(192, 241);
+            this.btn8.Location = new System.Drawing.Point(192, 253);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(65, 59);
+            this.btn8.Size = new System.Drawing.Size(62, 56);
             this.btn8.TabIndex = 47;
             this.btn8.UseVisualStyleBackColor = false;
             this.btn8.Click += new System.EventHandler(this.btn8_Click);
@@ -583,9 +585,9 @@
             this.btn7.BackColor = System.Drawing.Color.Transparent;
             this.btn7.BackgroundImage = global::elevatorSimulator.Properties.Resources.seven;
             this.btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn7.Location = new System.Drawing.Point(121, 241);
+            this.btn7.Location = new System.Drawing.Point(124, 253);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(65, 59);
+            this.btn7.Size = new System.Drawing.Size(62, 56);
             this.btn7.TabIndex = 46;
             this.btn7.UseVisualStyleBackColor = false;
             this.btn7.Click += new System.EventHandler(this.btn7_Click);
@@ -595,9 +597,9 @@
             this.btn6.BackColor = System.Drawing.Color.Transparent;
             this.btn6.BackgroundImage = global::elevatorSimulator.Properties.Resources.six;
             this.btn6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn6.Location = new System.Drawing.Point(192, 306);
+            this.btn6.Location = new System.Drawing.Point(192, 315);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(65, 59);
+            this.btn6.Size = new System.Drawing.Size(62, 56);
             this.btn6.TabIndex = 45;
             this.btn6.UseVisualStyleBackColor = false;
             this.btn6.Click += new System.EventHandler(this.btn6_Click);
@@ -607,9 +609,9 @@
             this.btn5.BackColor = System.Drawing.Color.Transparent;
             this.btn5.BackgroundImage = global::elevatorSimulator.Properties.Resources.five;
             this.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn5.Location = new System.Drawing.Point(121, 306);
+            this.btn5.Location = new System.Drawing.Point(124, 315);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(65, 59);
+            this.btn5.Size = new System.Drawing.Size(62, 56);
             this.btn5.TabIndex = 44;
             this.btn5.UseVisualStyleBackColor = false;
             this.btn5.Click += new System.EventHandler(this.btn5_Click);
@@ -619,9 +621,9 @@
             this.btn4.BackColor = System.Drawing.Color.Transparent;
             this.btn4.BackgroundImage = global::elevatorSimulator.Properties.Resources.four;
             this.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn4.Location = new System.Drawing.Point(192, 371);
+            this.btn4.Location = new System.Drawing.Point(192, 377);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(65, 59);
+            this.btn4.Size = new System.Drawing.Size(62, 56);
             this.btn4.TabIndex = 43;
             this.btn4.UseVisualStyleBackColor = false;
             this.btn4.Click += new System.EventHandler(this.btn4_Click);
@@ -631,9 +633,9 @@
             this.btn3.BackColor = System.Drawing.Color.Transparent;
             this.btn3.BackgroundImage = global::elevatorSimulator.Properties.Resources.tree;
             this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn3.Location = new System.Drawing.Point(121, 371);
+            this.btn3.Location = new System.Drawing.Point(124, 377);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(65, 59);
+            this.btn3.Size = new System.Drawing.Size(62, 56);
             this.btn3.TabIndex = 42;
             this.btn3.UseVisualStyleBackColor = false;
             this.btn3.Click += new System.EventHandler(this.btn3_Click);
@@ -643,9 +645,9 @@
             this.btn2.BackColor = System.Drawing.Color.Transparent;
             this.btn2.BackgroundImage = global::elevatorSimulator.Properties.Resources.two;
             this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn2.Location = new System.Drawing.Point(192, 436);
+            this.btn2.Location = new System.Drawing.Point(192, 439);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(65, 59);
+            this.btn2.Size = new System.Drawing.Size(62, 56);
             this.btn2.TabIndex = 41;
             this.btn2.UseVisualStyleBackColor = false;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
@@ -655,9 +657,9 @@
             this.btn1.BackColor = System.Drawing.Color.Transparent;
             this.btn1.BackgroundImage = global::elevatorSimulator.Properties.Resources.one;
             this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn1.Location = new System.Drawing.Point(121, 436);
+            this.btn1.Location = new System.Drawing.Point(124, 439);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(65, 59);
+            this.btn1.Size = new System.Drawing.Size(62, 56);
             this.btn1.TabIndex = 40;
             this.btn1.UseVisualStyleBackColor = false;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
