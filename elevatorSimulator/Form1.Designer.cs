@@ -144,9 +144,9 @@
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(755, 16);
+            this.listBox1.Location = new System.Drawing.Point(755, 10);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(53, 34);
+            this.listBox1.Size = new System.Drawing.Size(38, 18);
             this.listBox1.TabIndex = 4;
             // 
             // listBox2
@@ -174,100 +174,100 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(387, 634);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(390, 667);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 29);
+            this.label1.Size = new System.Drawing.Size(85, 29);
             this.label1.TabIndex = 64;
             this.label1.Text = "1. KAT";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(387, 560);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(390, 597);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 29);
+            this.label2.Size = new System.Drawing.Size(85, 29);
             this.label2.TabIndex = 65;
             this.label2.Text = "2. KAT";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(387, 491);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(390, 527);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 29);
+            this.label3.Size = new System.Drawing.Size(85, 29);
             this.label3.TabIndex = 66;
             this.label3.Text = "3. KAT";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(387, 418);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(390, 447);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 29);
+            this.label4.Size = new System.Drawing.Size(85, 29);
             this.label4.TabIndex = 67;
             this.label4.Text = "4. KAT";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(387, 353);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(390, 377);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 29);
+            this.label5.Size = new System.Drawing.Size(85, 29);
             this.label5.TabIndex = 68;
             this.label5.Text = "5. KAT";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(387, 292);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(390, 307);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 29);
+            this.label6.Size = new System.Drawing.Size(85, 29);
             this.label6.TabIndex = 69;
             this.label6.Text = "6. KAT";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(387, 227);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(390, 237);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 29);
+            this.label7.Size = new System.Drawing.Size(85, 29);
             this.label7.TabIndex = 70;
             this.label7.Text = "7. KAT";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(387, 166);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(390, 167);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 29);
+            this.label8.Size = new System.Drawing.Size(85, 29);
             this.label8.TabIndex = 71;
             this.label8.Text = "8. KAT";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(387, 102);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label9.Location = new System.Drawing.Point(390, 97);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 29);
+            this.label9.Size = new System.Drawing.Size(85, 29);
             this.label9.TabIndex = 72;
             this.label9.Text = "9. KAT";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(373, 40);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(376, 27);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(104, 29);
+            this.label10.Size = new System.Drawing.Size(98, 29);
             this.label10.TabIndex = 73;
             this.label10.Text = "10. KAT";
             // 
@@ -350,17 +350,17 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(387, 705);
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label13.Location = new System.Drawing.Point(390, 737);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(90, 29);
+            this.label13.Size = new System.Drawing.Size(85, 29);
             this.label13.TabIndex = 81;
             this.label13.Text = "0. KAT";
             // 
             // acikkapisag
             // 
             this.acikkapisag.Image = ((System.Drawing.Image)(resources.GetObject("acikkapisag.Image")));
-            this.acikkapisag.Location = new System.Drawing.Point(842, 678);
+            this.acikkapisag.Location = new System.Drawing.Point(842, 695);
             this.acikkapisag.Name = "acikkapisag";
             this.acikkapisag.Size = new System.Drawing.Size(81, 71);
             this.acikkapisag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -371,7 +371,7 @@
             // acikkapisol
             // 
             this.acikkapisol.Image = ((System.Drawing.Image)(resources.GetObject("acikkapisol.Image")));
-            this.acikkapisol.Location = new System.Drawing.Point(300, 678);
+            this.acikkapisol.Location = new System.Drawing.Point(226, 695);
             this.acikkapisol.Name = "acikkapisol";
             this.acikkapisol.Size = new System.Drawing.Size(81, 71);
             this.acikkapisol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -407,7 +407,7 @@
             // 
             this.btn0_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn0_2.BackgroundImage")));
             this.btn0_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn0_2.Location = new System.Drawing.Point(603, 693);
+            this.btn0_2.Location = new System.Drawing.Point(603, 725);
             this.btn0_2.Name = "btn0_2";
             this.btn0_2.Size = new System.Drawing.Size(38, 41);
             this.btn0_2.TabIndex = 80;
@@ -417,7 +417,7 @@
             // sagkapi0
             // 
             this.sagkapi0.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi0.Image")));
-            this.sagkapi0.Location = new System.Drawing.Point(668, 678);
+            this.sagkapi0.Location = new System.Drawing.Point(668, 710);
             this.sagkapi0.Name = "sagkapi0";
             this.sagkapi0.Size = new System.Drawing.Size(81, 71);
             this.sagkapi0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -668,7 +668,7 @@
             // 
             this.btn10_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn10_2.BackgroundImage")));
             this.btn10_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn10_2.Location = new System.Drawing.Point(603, 32);
+            this.btn10_2.Location = new System.Drawing.Point(603, 25);
             this.btn10_2.Name = "btn10_2";
             this.btn10_2.Size = new System.Drawing.Size(38, 41);
             this.btn10_2.TabIndex = 39;
@@ -679,7 +679,7 @@
             // 
             this.btn9_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn9_2.BackgroundImage")));
             this.btn9_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn9_2.Location = new System.Drawing.Point(603, 102);
+            this.btn9_2.Location = new System.Drawing.Point(603, 95);
             this.btn9_2.Name = "btn9_2";
             this.btn9_2.Size = new System.Drawing.Size(38, 41);
             this.btn9_2.TabIndex = 38;
@@ -701,7 +701,7 @@
             // 
             this.btn7_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn7_2.BackgroundImage")));
             this.btn7_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn7_2.Location = new System.Drawing.Point(603, 225);
+            this.btn7_2.Location = new System.Drawing.Point(603, 235);
             this.btn7_2.Name = "btn7_2";
             this.btn7_2.Size = new System.Drawing.Size(38, 41);
             this.btn7_2.TabIndex = 36;
@@ -712,7 +712,7 @@
             // 
             this.btn6_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn6_2.BackgroundImage")));
             this.btn6_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn6_2.Location = new System.Drawing.Point(603, 285);
+            this.btn6_2.Location = new System.Drawing.Point(603, 305);
             this.btn6_2.Name = "btn6_2";
             this.btn6_2.Size = new System.Drawing.Size(38, 41);
             this.btn6_2.TabIndex = 35;
@@ -723,7 +723,7 @@
             // 
             this.btn5_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn5_2.BackgroundImage")));
             this.btn5_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn5_2.Location = new System.Drawing.Point(603, 353);
+            this.btn5_2.Location = new System.Drawing.Point(603, 375);
             this.btn5_2.Name = "btn5_2";
             this.btn5_2.Size = new System.Drawing.Size(38, 41);
             this.btn5_2.TabIndex = 34;
@@ -734,7 +734,7 @@
             // 
             this.btn4_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn4_2.BackgroundImage")));
             this.btn4_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn4_2.Location = new System.Drawing.Point(603, 419);
+            this.btn4_2.Location = new System.Drawing.Point(603, 445);
             this.btn4_2.Name = "btn4_2";
             this.btn4_2.Size = new System.Drawing.Size(38, 41);
             this.btn4_2.TabIndex = 33;
@@ -745,7 +745,7 @@
             // 
             this.btn3_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn3_2.BackgroundImage")));
             this.btn3_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn3_2.Location = new System.Drawing.Point(603, 490);
+            this.btn3_2.Location = new System.Drawing.Point(603, 515);
             this.btn3_2.Name = "btn3_2";
             this.btn3_2.Size = new System.Drawing.Size(38, 41);
             this.btn3_2.TabIndex = 32;
@@ -756,7 +756,7 @@
             // 
             this.btn2_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn2_2.BackgroundImage")));
             this.btn2_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn2_2.Location = new System.Drawing.Point(603, 551);
+            this.btn2_2.Location = new System.Drawing.Point(603, 585);
             this.btn2_2.Name = "btn2_2";
             this.btn2_2.Size = new System.Drawing.Size(38, 41);
             this.btn2_2.TabIndex = 31;
@@ -767,7 +767,7 @@
             // 
             this.btn1_2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn1_2.BackgroundImage")));
             this.btn1_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn1_2.Location = new System.Drawing.Point(603, 622);
+            this.btn1_2.Location = new System.Drawing.Point(603, 655);
             this.btn1_2.Name = "btn1_2";
             this.btn1_2.Size = new System.Drawing.Size(38, 41);
             this.btn1_2.TabIndex = 30;
@@ -797,7 +797,7 @@
             // sagkapi10
             // 
             this.sagkapi10.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi10.Image")));
-            this.sagkapi10.Location = new System.Drawing.Point(668, 16);
+            this.sagkapi10.Location = new System.Drawing.Point(668, 10);
             this.sagkapi10.Name = "sagkapi10";
             this.sagkapi10.Size = new System.Drawing.Size(81, 71);
             this.sagkapi10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -807,7 +807,7 @@
             // sagkapi9
             // 
             this.sagkapi9.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi9.Image")));
-            this.sagkapi9.Location = new System.Drawing.Point(668, 78);
+            this.sagkapi9.Location = new System.Drawing.Point(668, 80);
             this.sagkapi9.Name = "sagkapi9";
             this.sagkapi9.Size = new System.Drawing.Size(81, 71);
             this.sagkapi9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -817,7 +817,7 @@
             // sagkapi8
             // 
             this.sagkapi8.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi8.Image")));
-            this.sagkapi8.Location = new System.Drawing.Point(668, 140);
+            this.sagkapi8.Location = new System.Drawing.Point(668, 150);
             this.sagkapi8.Name = "sagkapi8";
             this.sagkapi8.Size = new System.Drawing.Size(81, 71);
             this.sagkapi8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -827,7 +827,7 @@
             // sagkapi7
             // 
             this.sagkapi7.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi7.Image")));
-            this.sagkapi7.Location = new System.Drawing.Point(668, 203);
+            this.sagkapi7.Location = new System.Drawing.Point(668, 220);
             this.sagkapi7.Name = "sagkapi7";
             this.sagkapi7.Size = new System.Drawing.Size(81, 71);
             this.sagkapi7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -837,7 +837,7 @@
             // sagkapi6
             // 
             this.sagkapi6.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi6.Image")));
-            this.sagkapi6.Location = new System.Drawing.Point(668, 268);
+            this.sagkapi6.Location = new System.Drawing.Point(668, 290);
             this.sagkapi6.Name = "sagkapi6";
             this.sagkapi6.Size = new System.Drawing.Size(81, 71);
             this.sagkapi6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -847,7 +847,7 @@
             // sagkapi5
             // 
             this.sagkapi5.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi5.Image")));
-            this.sagkapi5.Location = new System.Drawing.Point(668, 333);
+            this.sagkapi5.Location = new System.Drawing.Point(668, 360);
             this.sagkapi5.Name = "sagkapi5";
             this.sagkapi5.Size = new System.Drawing.Size(81, 71);
             this.sagkapi5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -857,7 +857,7 @@
             // sagkapi4
             // 
             this.sagkapi4.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi4.Image")));
-            this.sagkapi4.Location = new System.Drawing.Point(668, 399);
+            this.sagkapi4.Location = new System.Drawing.Point(668, 430);
             this.sagkapi4.Name = "sagkapi4";
             this.sagkapi4.Size = new System.Drawing.Size(81, 71);
             this.sagkapi4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -867,7 +867,7 @@
             // sagkapi3
             // 
             this.sagkapi3.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi3.Image")));
-            this.sagkapi3.Location = new System.Drawing.Point(668, 467);
+            this.sagkapi3.Location = new System.Drawing.Point(668, 500);
             this.sagkapi3.Name = "sagkapi3";
             this.sagkapi3.Size = new System.Drawing.Size(81, 71);
             this.sagkapi3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -877,7 +877,7 @@
             // sagkapi2
             // 
             this.sagkapi2.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi2.Image")));
-            this.sagkapi2.Location = new System.Drawing.Point(668, 536);
+            this.sagkapi2.Location = new System.Drawing.Point(668, 570);
             this.sagkapi2.Name = "sagkapi2";
             this.sagkapi2.Size = new System.Drawing.Size(81, 71);
             this.sagkapi2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -887,7 +887,7 @@
             // sagkapi1
             // 
             this.sagkapi1.Image = ((System.Drawing.Image)(resources.GetObject("sagkapi1.Image")));
-            this.sagkapi1.Location = new System.Drawing.Point(668, 607);
+            this.sagkapi1.Location = new System.Drawing.Point(668, 640);
             this.sagkapi1.Name = "sagkapi1";
             this.sagkapi1.Size = new System.Drawing.Size(81, 71);
             this.sagkapi1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -897,7 +897,7 @@
             // solkapi10
             // 
             this.solkapi10.Image = ((System.Drawing.Image)(resources.GetObject("solkapi10.Image")));
-            this.solkapi10.Location = new System.Drawing.Point(492, 16);
+            this.solkapi10.Location = new System.Drawing.Point(492, 10);
             this.solkapi10.Name = "solkapi10";
             this.solkapi10.Size = new System.Drawing.Size(81, 71);
             this.solkapi10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -907,7 +907,7 @@
             // solkapi9
             // 
             this.solkapi9.Image = ((System.Drawing.Image)(resources.GetObject("solkapi9.Image")));
-            this.solkapi9.Location = new System.Drawing.Point(492, 78);
+            this.solkapi9.Location = new System.Drawing.Point(492, 80);
             this.solkapi9.Name = "solkapi9";
             this.solkapi9.Size = new System.Drawing.Size(81, 71);
             this.solkapi9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -917,7 +917,7 @@
             // solkapi8
             // 
             this.solkapi8.Image = ((System.Drawing.Image)(resources.GetObject("solkapi8.Image")));
-            this.solkapi8.Location = new System.Drawing.Point(492, 140);
+            this.solkapi8.Location = new System.Drawing.Point(492, 150);
             this.solkapi8.Name = "solkapi8";
             this.solkapi8.Size = new System.Drawing.Size(81, 71);
             this.solkapi8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -927,7 +927,7 @@
             // solkapi7
             // 
             this.solkapi7.Image = ((System.Drawing.Image)(resources.GetObject("solkapi7.Image")));
-            this.solkapi7.Location = new System.Drawing.Point(492, 203);
+            this.solkapi7.Location = new System.Drawing.Point(492, 220);
             this.solkapi7.Name = "solkapi7";
             this.solkapi7.Size = new System.Drawing.Size(81, 71);
             this.solkapi7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -937,7 +937,7 @@
             // solkapi6
             // 
             this.solkapi6.Image = ((System.Drawing.Image)(resources.GetObject("solkapi6.Image")));
-            this.solkapi6.Location = new System.Drawing.Point(492, 268);
+            this.solkapi6.Location = new System.Drawing.Point(492, 290);
             this.solkapi6.Name = "solkapi6";
             this.solkapi6.Size = new System.Drawing.Size(81, 71);
             this.solkapi6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -947,7 +947,7 @@
             // solkapi5
             // 
             this.solkapi5.Image = ((System.Drawing.Image)(resources.GetObject("solkapi5.Image")));
-            this.solkapi5.Location = new System.Drawing.Point(492, 333);
+            this.solkapi5.Location = new System.Drawing.Point(492, 360);
             this.solkapi5.Name = "solkapi5";
             this.solkapi5.Size = new System.Drawing.Size(81, 71);
             this.solkapi5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -957,7 +957,7 @@
             // solkapi4
             // 
             this.solkapi4.Image = ((System.Drawing.Image)(resources.GetObject("solkapi4.Image")));
-            this.solkapi4.Location = new System.Drawing.Point(492, 399);
+            this.solkapi4.Location = new System.Drawing.Point(492, 430);
             this.solkapi4.Name = "solkapi4";
             this.solkapi4.Size = new System.Drawing.Size(81, 71);
             this.solkapi4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -967,7 +967,7 @@
             // solkapi3
             // 
             this.solkapi3.Image = ((System.Drawing.Image)(resources.GetObject("solkapi3.Image")));
-            this.solkapi3.Location = new System.Drawing.Point(492, 467);
+            this.solkapi3.Location = new System.Drawing.Point(492, 500);
             this.solkapi3.Name = "solkapi3";
             this.solkapi3.Size = new System.Drawing.Size(81, 71);
             this.solkapi3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -977,7 +977,7 @@
             // solkapi2
             // 
             this.solkapi2.Image = ((System.Drawing.Image)(resources.GetObject("solkapi2.Image")));
-            this.solkapi2.Location = new System.Drawing.Point(492, 536);
+            this.solkapi2.Location = new System.Drawing.Point(492, 570);
             this.solkapi2.Name = "solkapi2";
             this.solkapi2.Size = new System.Drawing.Size(81, 71);
             this.solkapi2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -987,7 +987,7 @@
             // solkapi1
             // 
             this.solkapi1.Image = ((System.Drawing.Image)(resources.GetObject("solkapi1.Image")));
-            this.solkapi1.Location = new System.Drawing.Point(492, 607);
+            this.solkapi1.Location = new System.Drawing.Point(492, 640);
             this.solkapi1.Name = "solkapi1";
             this.solkapi1.Size = new System.Drawing.Size(81, 71);
             this.solkapi1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -997,7 +997,7 @@
             // solkapi0
             // 
             this.solkapi0.Image = ((System.Drawing.Image)(resources.GetObject("solkapi0.Image")));
-            this.solkapi0.Location = new System.Drawing.Point(492, 678);
+            this.solkapi0.Location = new System.Drawing.Point(492, 710);
             this.solkapi0.Name = "solkapi0";
             this.solkapi0.Size = new System.Drawing.Size(81, 71);
             this.solkapi0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1009,7 +1009,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlueViolet;
-            this.ClientSize = new System.Drawing.Size(1170, 773);
+            this.ClientSize = new System.Drawing.Size(1168, 796);
             this.Controls.Add(this.acikkapisag);
             this.Controls.Add(this.acikkapisol);
             this.Controls.Add(this.btn0_1);

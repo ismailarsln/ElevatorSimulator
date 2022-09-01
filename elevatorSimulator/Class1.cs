@@ -9,32 +9,34 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        List<int> sira = new List<int>(); //tüm kuyruklar
-        List<int> kuyruk1 = new List<int>(); //1. asansör için kuyruk
-        List<int> kuyruk2 = new List<int>(); //2. asansör için kuyruk
+        List<int> sira = new List<int>(); //Ana kuyruk
 
-        List<int> yedek1 = new List<int>(); //1. asansör için yedek kuyruk
-        List<int> yedek2 = new List<int>(); //2. asansör için yedek kuyruk
+        List<int> kuyruk1 = new List<int>(); //1. asansör için kuyruk.
+        List<int> kuyruk2 = new List<int>(); //2. asansör için kuyruk.
 
-        private int i = 1;  //butonların değeri
+        List<int> yedek1 = new List<int>(); //1. asansör için yedek kuyruk.
+        List<int> yedek2 = new List<int>(); //2. asansör için yedek kuyruk.
+
+        private int i = 1;  //Butonların değeri.
+
         public int anaKat = 1;
         public int araKat = 5;
 
-        private void btn() //katlardaki düğmelere basılınca
+        private void btn() //Katlardaki düğmelere basılınca..
         {
             sira.Add(i);
             siraguncelle();
         }
 
-        private void sol() //1. asansör içerisindeki düğmeler basılınca
+        private void sol() //1. asansör içerisindeki düğmeler basılınca..
         {
-            kuyruk1.Add(i); //liste 1 e ekleme yapıyor.
+            kuyruk1.Add(i); //liste 1'e ekleme yapıyor.
             solKuyruk();    //liste 1 sıralaması yapılıyor.
 
             siraguncelle();       
         }
 
-        private void sag() //2. asansör içerisindeki düğmeler basılınca
+        private void sag() //2. asansör içerisindeki düğmeler basılınca..
         {
             kuyruk2.Add(i);
             sagKuyruk();
@@ -46,7 +48,7 @@ namespace elevatorSimulator
         {
             controller();
 
-            listBox1.Items.Clear(); //güncel tutulması sağlanıyor..
+            listBox1.Items.Clear(); //Listelerin güncel tutulması sağlanıyor.
             listBox2.Items.Clear();
             listBox3.Items.Clear();
 

@@ -13,17 +13,17 @@ namespace elevatorSimulator
 {
     public partial class Form1 : Form
     {
-        private void converter(string yazi)
+        private void converter(string yazi) //Stringi metoda çevirme için metot.
         {
             Type thisType = this.GetType();
             MethodInfo theMethod = thisType
                 .GetMethod(yazi, BindingFlags.NonPublic | BindingFlags.Instance);
             theMethod.Invoke(this, null);
         }
-        private Timer t = new Timer();  //solkat arası geçiş için geçen 5 saniye
-        private Timer t2 = new Timer(); //sagkat arası geçiş için geçen 5 saniye
-        private Timer t3 = new Timer(); //30 saniye
-        private Timer t4 = new Timer(); //30 saniye
+        private Timer t = new Timer();  //1. asansör için geçişlerde kullanılan süre.
+        private Timer t2 = new Timer(); //1. asansör için geçişlerde kullanılan süre.
+        private Timer t3 = new Timer(); //Asansör boşa çıktığında aradan geçen süre.
+        private Timer t4 = new Timer(); //Asansör boşa çıktığında aradan geçen süre.
 
         public Form1()
         {
@@ -43,9 +43,10 @@ namespace elevatorSimulator
 
             t4.Interval = 15000;
             t4.Tick += new EventHandler(t4_Tick);
+            
+            t.Enabled = true;
+            t2.Enabled = true;
 
-            t2.Enabled = true;  //5 saniyede bir güncelleme sağlıyor.
-            t.Enabled = true; 
             siraguncelle();
         }
 
@@ -228,7 +229,5 @@ namespace elevatorSimulator
             acikkapisag.Location = new Point(sagkapi10.Location.X, sagkapi10.Location.Y);
             acikkapisag.Visible = true;
         }
-
-
     }
 }
