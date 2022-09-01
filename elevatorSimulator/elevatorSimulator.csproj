@@ -73,9 +73,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Status.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Task.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,55 +91,49 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1.PNG" />
+    <None Include="Resources\butonn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\11.PNG" />
+    <None Include="Resources\acik.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2.PNG" />
+    <None Include="Resources\kapali.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\3.PNG" />
+    <None Include="Resources\back.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\4.PNG" />
+    <None Include="Resources\eight.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\5.PNG" />
+    <None Include="Resources\five.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\6.PNG" />
+    <None Include="Resources\four.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\7.PNG" />
+    <None Include="Resources\nine.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\8.PNG" />
+    <None Include="Resources\one.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\9.PNG" />
+    <None Include="Resources\seven.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\10.PNG" />
+    <None Include="Resources\six.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\arkaplan.png" />
+    <None Include="Resources\ten.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\asansörkapi.png" />
+    <None Include="Resources\tree.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cagirmadügmesi.png" />
+    <None Include="Resources\two.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icdügmeler.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kabin.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tamacikkapi.png" />
+    <None Include="Resources\zero.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

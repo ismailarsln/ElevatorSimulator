@@ -13,10 +13,10 @@ namespace elevatorSimulator
         List<int> kuyruk1 = new List<int>(); //1. asansör için kuyruk
         List<int> kuyruk2 = new List<int>(); //2. asansör için kuyruk
 
-        List<int> yedek1 = new List<int>(); //2. asansör için kuyruk
-        List<int> yedek2 = new List<int>(); //2. asansör için kuyruk
+        List<int> yedek1 = new List<int>(); //1. asansör için yedek kuyruk
+        List<int> yedek2 = new List<int>(); //2. asansör için yedek kuyruk
 
-        private int i = 0;  //butonların değeri
+        private int i = 1;  //butonların değeri
         public int anaKat = 1;
         public int araKat = 5;
 
@@ -26,10 +26,10 @@ namespace elevatorSimulator
             siraguncelle();
         }
 
-        private void sol() //1. asansor içerisindeki düğmeler basılınca
+        private void sol() //1. asansör içerisindeki düğmeler basılınca
         {
-            kuyruk1.Add(i); //liste 1e ekleme yapıyor.
-            solKuyruk();          //liste 1 sıralaması yapılıyor.
+            kuyruk1.Add(i); //liste 1 e ekleme yapıyor.
+            solKuyruk();    //liste 1 sıralaması yapılıyor.
 
             siraguncelle();       
         }

@@ -8,7 +8,7 @@ namespace elevatorSimulator
 {
     public partial class Form1
     {
-        private int ilk = 1; //değişken
+        private int ilk = 0; //değişken
 
         private void solkat()
         {
@@ -26,10 +26,16 @@ namespace elevatorSimulator
         }
 
         //asansör düğmeleri
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            i = 0;
+            sol(); //kuyruğa ekleme
+        }
+
         private void btn1_Click(object sender, EventArgs e)
         {
             i = 1;
-            sol(); //kuyruğa ekleme
+            sol();
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -87,10 +93,15 @@ namespace elevatorSimulator
         }
 
         //sag asansör içi düğmeler:
+        private void btn0_1_Click(object sender, EventArgs e)
+        {
+            i = 0;
+            sag(); //sag kuyruğa ekleme işlemi
+        }
         private void btn1_1_Click(object sender, EventArgs e)
         {
             i = 1;
-            sag(); //sag kuyruğa ekleme işlemi:
+            sag(); 
         }
 
         private void btn2_1_Click(object sender, EventArgs e)
@@ -148,10 +159,15 @@ namespace elevatorSimulator
         }
 
         //orta butonlar:
+        private void btn0_2_Click(object sender, EventArgs e)
+        {
+            i = 0;
+            btn(); //sira listesine ekleme
+        }
         private void btn1_2_Click(object sender, EventArgs e)
         {
             i = 1;
-            btn(); //sira listesine ekleme:
+            btn(); 
         }
 
         private void btn2_2_Click(object sender, EventArgs e)

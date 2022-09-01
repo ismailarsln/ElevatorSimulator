@@ -69,9 +69,14 @@ namespace elevatorSimulator
         {
             sagkat();
         }
-
+        private void solkat0()
+        {
+            acikkapisol.Location = new Point(solkapi0.Location.X, solkapi0.Location.Y);
+            acikkapisol.Visible = true;
+        }
         private void solkat1()
         {
+            acikkapisol.Visible = false;
             acikkapisol.Location = new Point(solkapi1.Location.X, solkapi1.Location.Y);
             acikkapisol.Visible = true;
         }
@@ -138,8 +143,14 @@ namespace elevatorSimulator
             acikkapisol.Visible = true;
         }
 
+        private void sagkat0()
+        {
+            acikkapisag.Location = new Point(sagkapi0.Location.X, sagkapi0.Location.Y);
+            acikkapisag.Visible = true;
+        }
         private void sagkat1()
         {
+            acikkapisag.Visible = false;
             acikkapisag.Location = new Point(sagkapi1.Location.X, sagkapi1.Location.Y);
             acikkapisag.Visible = true;
         }
@@ -206,9 +217,6 @@ namespace elevatorSimulator
             acikkapisag.Visible = true;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
 
-        }
     }
 }
