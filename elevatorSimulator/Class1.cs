@@ -17,6 +17,8 @@ namespace elevatorSimulator
         List<int> yedek1 = new List<int>(); //1. asansör için yedek kuyruk.
         List<int> yedek2 = new List<int>(); //2. asansör için yedek kuyruk.
 
+        List<string> reads = new List<string>();
+
         private int i = 1;  //Butonların değeri.
 
         public int anaKat = 1;
@@ -46,6 +48,28 @@ namespace elevatorSimulator
 
         private void siraguncelle()
         {
+            read.Items.Clear();
+
+            if (kuyruk1.Count > 0)
+            {
+                read.Items.Insert(0, "1. elevator is going to " + kuyruk1[0] + ". floor.");
+            }
+            else
+            {
+                read.Items.Insert(0, "1. elevator returns to home position after 15 seconds.");
+            }
+
+            read.Items.Add(" ");
+
+            if (kuyruk2.Count > 0)
+            {
+                read.Items.Insert(2, "2. elevator is going to " + kuyruk2[0] + ". floor.");
+            }
+            else
+            {
+                read.Items.Insert(2, "2. elevator returns to home position after 15 seconds.");
+            }
+
             controller();
 
             listBox1.Items.Clear(); //Listelerin güncel tutulması sağlanıyor.
